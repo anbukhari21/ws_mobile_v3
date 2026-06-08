@@ -1,0 +1,106 @@
+
+=== STATUS 2026-06-05T18:26:23+03:00 ===
+--- services active ---
+fastdds-discovery.service active
+robot-laser-tf.service active
+rplidar.service active
+yahboom-base.service active
+--- nodes ---
+/rplidar_node
+/sac_joint_state_publisher
+/sac_robot_state_publisher
+/static_transform_publisher_SzTpqOxjddiqalmT
+/yahboom_base_node
+--- topics ---
+/cmd_vel
+/joint_states
+/odom
+/parameter_events
+/robot_description
+/rosout
+/scan
+/tf
+/tf_static
+--- /cmd_vel info ---
+Type: geometry_msgs/msg/Twist
+
+Publisher count: 1
+
+Node name: _ros2cli_3888
+Node namespace: /
+Topic type: geometry_msgs/msg/Twist
+Endpoint type: PUBLISHER
+GID: 01.0f.e7.ee.30.0f.4a.e5.00.00.00.00.00.00.05.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: TRANSIENT_LOCAL
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 1
+
+Node name: yahboom_base_node
+Node namespace: /
+Topic type: geometry_msgs/msg/Twist
+Endpoint type: SUBSCRIPTION
+GID: 01.0f.e7.ee.e5.08.dd.d3.00.00.00.00.00.00.11.04.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+--- /scan info ---
+Type: sensor_msgs/msg/LaserScan
+
+Publisher count: 1
+
+Node name: rplidar_node
+Node namespace: /
+Topic type: sensor_msgs/msg/LaserScan
+Endpoint type: PUBLISHER
+GID: 01.0f.e7.ee.60.09.cd.30.00.00.00.00.00.00.12.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 0
+
+--- /odom info ---
+Type: nav_msgs/msg/Odometry
+
+Publisher count: 1
+
+Node name: yahboom_base_node
+Node namespace: /
+Topic type: nav_msgs/msg/Odometry
+Endpoint type: PUBLISHER
+GID: 01.0f.e7.ee.e5.08.dd.d3.00.00.00.00.00.00.12.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 0
+
+
+=== END 2026-06-05T18:27:17+03:00 ===
+Stopped robot with zero /cmd_vel.
+
+=== END 2026-06-05T18:27:19+03:00 ===
+Stopped robot with zero /cmd_vel.

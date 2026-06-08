@@ -1,0 +1,19 @@
+[INFO] [launch]: All log files can be found below /home/abdulrahman/.ros/log/2026-06-05-17-57-01-072970-ubuntu1-614292
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [joint_state_publisher-1]: process started with pid [614388]
+[INFO] [robot_state_publisher-2]: process started with pid [614390]
+[INFO] [rviz2-3]: process started with pid [614392]
+[robot_state_publisher-2] [INFO] [1780671421.217245718] [sac_robot_state_publisher]: got segment base_footprint
+[robot_state_publisher-2] [INFO] [1780671421.217376324] [sac_robot_state_publisher]: got segment body_link
+[robot_state_publisher-2] [INFO] [1780671421.217392946] [sac_robot_state_publisher]: got segment camera_link
+[robot_state_publisher-2] [INFO] [1780671421.217406007] [sac_robot_state_publisher]: got segment camera_link_optical
+[robot_state_publisher-2] [INFO] [1780671421.217417880] [sac_robot_state_publisher]: got segment lidar_link
+[robot_state_publisher-2] [INFO] [1780671421.217429753] [sac_robot_state_publisher]: got segment wheel1_link
+[robot_state_publisher-2] [INFO] [1780671421.217441626] [sac_robot_state_publisher]: got segment wheel2_link
+[robot_state_publisher-2] [INFO] [1780671421.217453499] [sac_robot_state_publisher]: got segment wheel3_link
+[robot_state_publisher-2] [INFO] [1780671421.217465373] [sac_robot_state_publisher]: got segment wheel4_link
+[rviz2-3] [INFO] [1780671421.483544144] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-3] [INFO] [1780671421.483673562] [rviz2]: OpenGl version: 4.5 (GLSL 4.5)
+[joint_state_publisher-1] [INFO] [1780671421.489565052] [sac_joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+[rviz2-3] [INFO] [1780671421.530615509] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [rviz2-3]: process has finished cleanly [pid 614392]

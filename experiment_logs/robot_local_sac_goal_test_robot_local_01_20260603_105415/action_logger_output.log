@@ -1,0 +1,3 @@
+[INFO] [1780473257.861379868] [action_logger_node]: Action logger writing CSV to: /home/abdulrhman/ws_mobile_v2/experiment_logs/robot_local_sac_goal_test_robot_local_01_20260603_105415/robot_action_log.csv
+[INFO] [1780473257.862297836] [action_logger_node]: Listening for odometry on /odom, commands on /cmd_vel, and LiDAR on /scan
+[INFO] [1780473257.863061497] [action_logger_node]: control_source=sac_autonomy; scan snapshots: /home/abdulrhman/ws_mobile_v2/experiment_logs/robot_local_sac_goal_test_robot_local_01_20260603_105415/robot_action_log_scan_snapshots.csv

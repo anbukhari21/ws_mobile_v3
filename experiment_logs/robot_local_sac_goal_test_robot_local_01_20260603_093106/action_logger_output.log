@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/home/abdulrhman/ws_mobile_v2/install/mobile_robot/lib/mobile_robot/action_logger_node", line 369, in <module>
+    main()
+  File "/home/abdulrhman/ws_mobile_v2/install/mobile_robot/lib/mobile_robot/action_logger_node", line 360, in main
+    node = ActionLoggerNode()
+  File "/home/abdulrhman/ws_mobile_v2/install/mobile_robot/lib/mobile_robot/action_logger_node", line 68, in __init__
+    super().__init__("action_logger_node")
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/node.py", line 199, in __init__
+    self._parameter_event_publisher = self.create_publisher(
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/node.py", line 1299, in create_publisher
+    publisher_object = _rclpy.Publisher(
+rclpy._rclpy_pybind11.RCLError: Failed to create publisher: rcl node's context is invalid, at ./src/rcl/node.c:428
+[ros2run]: Process exited with failure 1

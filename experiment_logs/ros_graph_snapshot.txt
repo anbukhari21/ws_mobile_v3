@@ -1,0 +1,202 @@
+ROS graph snapshot
+Captured at: 2026-06-02T09:12:59+03:00
+Workspace: /home/abdulrahman/ws_mobile_v2
+
+===== ros2 node list =====
+/action_logger_node
+/amcl
+/global_amcl_autorotate_node
+/lifecycle_manager_path_v2_localization
+/map_server
+/robot_state_publisher
+/rplidar_node
+/static_transform_publisher_HAeqFztdFuQZCcJg
+/tf2_echo
+/transform_listener_impl_582aa42f6d20
+/transform_listener_impl_63930ad78030
+/yahboom_base_node
+
+===== ros2 topic list =====
+/amcl/transition_event
+/amcl_pose
+/bond
+/cmd_vel
+/collision_status
+/diagnostics
+/goal_angle
+/goal_distance
+/goal_reached
+/initialpose
+/joint_states
+/map
+/map_server/transition_event
+/odom
+/parameter_events
+/particle_cloud
+/robot_description
+/rosout
+/scan
+/tf
+/tf_static
+
+===== ros2 topic info /cmd_vel -v =====
+Type: geometry_msgs/msg/Twist
+
+Publisher count: 1
+
+Node name: global_amcl_autorotate_node
+Node namespace: /
+Topic type: geometry_msgs/msg/Twist
+Endpoint type: PUBLISHER
+GID: 01.0f.fa.f9.0f.c1.48.68.00.00.00.00.00.00.11.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 2
+
+Node name: yahboom_base_node
+Node namespace: /
+Topic type: geometry_msgs/msg/Twist
+Endpoint type: SUBSCRIPTION
+GID: 01.0f.e7.ee.5c.14.38.2c.00.00.00.00.00.00.11.04.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Node name: action_logger_node
+Node namespace: /
+Topic type: geometry_msgs/msg/Twist
+Endpoint type: SUBSCRIPTION
+GID: 01.0f.fa.f9.ed.c0.6d.76.00.00.00.00.00.00.12.04.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+
+===== ros2 topic info /odom -v =====
+Type: nav_msgs/msg/Odometry
+
+Publisher count: 1
+
+Node name: yahboom_base_node
+Node namespace: /
+Topic type: nav_msgs/msg/Odometry
+Endpoint type: PUBLISHER
+GID: 01.0f.e7.ee.5c.14.38.2c.00.00.00.00.00.00.12.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 1
+
+Node name: action_logger_node
+Node namespace: /
+Topic type: nav_msgs/msg/Odometry
+Endpoint type: SUBSCRIPTION
+GID: 01.0f.fa.f9.ed.c0.6d.76.00.00.00.00.00.00.11.04.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+
+===== ros2 topic info /scan -v =====
+Type: sensor_msgs/msg/LaserScan
+
+Publisher count: 1
+
+Node name: rplidar_node
+Node namespace: /
+Topic type: sensor_msgs/msg/LaserScan
+Endpoint type: PUBLISHER
+GID: 01.0f.e7.ee.6f.14.92.c1.00.00.00.00.00.00.12.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 2
+
+Node name: amcl
+Node namespace: /
+Topic type: sensor_msgs/msg/LaserScan
+Endpoint type: SUBSCRIPTION
+GID: 01.0f.fa.f9.0b.c1.41.5a.00.00.00.00.00.00.22.04.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: BEST_EFFORT
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Node name: action_logger_node
+Node namespace: /
+Topic type: sensor_msgs/msg/LaserScan
+Endpoint type: SUBSCRIPTION
+GID: 01.0f.fa.f9.ed.c0.6d.76.00.00.00.00.00.00.13.04.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+
+===== ros2 topic info /goal_distance -v =====
+Type: std_msgs/msg/Float32
+
+Publisher count: 0
+
+Subscription count: 1
+
+Node name: action_logger_node
+Node namespace: /
+Topic type: std_msgs/msg/Float32
+Endpoint type: SUBSCRIPTION
+GID: 01.0f.fa.f9.ed.c0.6d.76.00.00.00.00.00.00.14.04.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+
+===== ros2 topic info /plan -v =====
+Unknown topic '/plan'
+

@@ -13,6 +13,7 @@ This workspace contains the ROS 2 Humble package for the Yahboom 4WD robot, Gaze
 - `src/mobile_robot/config`: localization and SAC navigation parameters.
 - `src/mobile_robot/launch`: launch files for simulation, localization, RViz, and SAC navigation.
 - `src/mobile_robot/scripts`: helper scripts for robot trials, logging, map saving, and endurance checks.
+- `experiment_logs`: saved trial logs, CSV files, ROS evidence, and generated plots.
 
 ## Build
 

@@ -1,0 +1,30 @@
+metric,value
+log_file_used,/home/abdulrhman/ws_mobile_v2/experiment_logs/robot_local_sac_goal_test_robot_local_01_20260604_120847/robot_action_log.csv
+test_start_time,1780564130.406 (2026-06-04T12:08:50.405602)
+test_end_time,1780564209.991 (2026-06-04T12:10:09.990814)
+total_duration_sec,79.58521151542664
+total_number_of_steps,3498
+average_control_frequency_hz,43.940324256374545
+start_position,"(0.820, 0.419)"
+goal_position,"(0.000, 0.000)"
+final_position,"(0.820, 0.418)"
+final_distance_to_goal,0.30961439
+minimum_distance_to_goal,0.080313869
+path_length_from_odometry,0.003938346931700902
+average_commanded_linear_velocity,0.0
+average_commanded_angular_velocity_abs,0.01789594053745007
+maximum_commanded_linear_velocity_abs,0.0
+maximum_commanded_angular_velocity_abs,0.2
+minimum_lidar_range,0.54400003
+number_of_collision_flags,0
+success_or_failure,SUCCESS
+success_radius,0.22
+cmd_vel_had_nonzero_commands,True
+odom_changed_consistently_with_commands,True
+lidar_data_was_received,True
+expected_control_source,sac_autonomy
+control_source_matches_expected,True
+route_system_expected,True
+control_sources_seen,sac_autonomy
+ros_graph_snapshot,missing
+warnings,Robot did not move enough; odometry path length is below 0.05 m. | Odometry position stayed almost constant. | Control frequency is irregular; inspect dropped messages or pauses. | Goal appears reached without meaningful movement; verify start/goal setup. | ROS graph snapshot was not found; record it for stronger autonomy evidence.

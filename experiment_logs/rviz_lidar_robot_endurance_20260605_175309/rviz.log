@@ -1,0 +1,20 @@
+[INFO] [launch]: All log files can be found below /home/abdulrahman/.ros/log/2026-06-05-17-53-09-599053-ubuntu1-587174
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [joint_state_publisher-1]: process started with pid [587266]
+[INFO] [robot_state_publisher-2]: process started with pid [587268]
+[INFO] [rviz2-3]: process started with pid [587270]
+[robot_state_publisher-2] [INFO] [1780671189.718067058] [sac_robot_state_publisher]: got segment base_footprint
+[robot_state_publisher-2] [INFO] [1780671189.718184605] [sac_robot_state_publisher]: got segment body_link
+[robot_state_publisher-2] [INFO] [1780671189.718200040] [sac_robot_state_publisher]: got segment camera_link
+[robot_state_publisher-2] [INFO] [1780671189.718213101] [sac_robot_state_publisher]: got segment camera_link_optical
+[robot_state_publisher-2] [INFO] [1780671189.718224974] [sac_robot_state_publisher]: got segment lidar_link
+[robot_state_publisher-2] [INFO] [1780671189.718235660] [sac_robot_state_publisher]: got segment wheel1_link
+[robot_state_publisher-2] [INFO] [1780671189.718246347] [sac_robot_state_publisher]: got segment wheel2_link
+[robot_state_publisher-2] [INFO] [1780671189.718257033] [sac_robot_state_publisher]: got segment wheel3_link
+[robot_state_publisher-2] [INFO] [1780671189.718266531] [sac_robot_state_publisher]: got segment wheel4_link
+[rviz2-3] [INFO] [1780671189.925853510] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-3] [INFO] [1780671189.925947310] [rviz2]: OpenGl version: 4.5 (GLSL 4.5)
+[joint_state_publisher-1] [INFO] [1780671189.929757498] [sac_joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+[rviz2-3] [INFO] [1780671189.970288686] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-3] [INFO] [1780671222.190332350] [sac_rviz]: Message Filter dropping message: frame 'laser' at time 1780671190.313 for reason 'discarding message because the queue is full'
+[rviz2-3] [INFO] [1780671327.886310771] [sac_rviz]: Message Filter dropping message: frame 'laser' at time 1780671326.697 for reason 'discarding message because the queue is full'

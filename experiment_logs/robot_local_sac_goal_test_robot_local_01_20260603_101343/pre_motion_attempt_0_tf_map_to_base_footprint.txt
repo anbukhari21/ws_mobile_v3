@@ -1,0 +1,23 @@
+[INFO] [1780470945.355882761] [tf2_echo]: Waiting for transform map ->  base_footprint: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+At time 1780470947.297182541
+- Translation: [1.032, 1.180, 0.000]
+- Rotation: in Quaternion (xyzw) [0.000, 0.000, 0.975, 0.222]
+- Rotation: in RPY (radian) [0.000, -0.000, 2.693]
+- Rotation: in RPY (degree) [0.000, -0.000, 154.316]
+- Matrix:
+ -0.901 -0.433  0.000  1.032
+  0.433 -0.901  0.000  1.180
+  0.000  0.000  1.000  0.000
+  0.000  0.000  0.000  1.000
+At time 1780470948.309292967
+- Translation: [1.032, 1.180, 0.000]
+- Rotation: in Quaternion (xyzw) [0.000, 0.000, 0.975, 0.222]
+- Rotation: in RPY (radian) [0.000, -0.000, 2.693]
+- Rotation: in RPY (degree) [0.000, -0.000, 154.316]
+- Matrix:
+ -0.901 -0.433  0.000  1.032
+  0.433 -0.901  0.000  1.180
+  0.000  0.000  1.000  0.000
+  0.000  0.000  0.000  1.000
+At time 1780470949.271465918
+- Translation: [1.032, 1.180, 0.000]

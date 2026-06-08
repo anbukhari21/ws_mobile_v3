@@ -1,0 +1,33 @@
+[INFO] [1780566357.255893020] [action_logger_node]: Action logger writing CSV to: /home/abdulrhman/ws_mobile_v2/experiment_logs/robot_local_sac_goal_test_robot_local_01_20260604_124555/robot_action_log.csv
+[INFO] [1780566357.256774521] [action_logger_node]: Listening for odometry on /odom, commands on /cmd_vel, and LiDAR on /scan
+[INFO] [1780566357.257539374] [action_logger_node]: control_source=sac_autonomy; scan snapshots: /home/abdulrhman/ws_mobile_v2/experiment_logs/robot_local_sac_goal_test_robot_local_01_20260604_124555/robot_action_log_scan_snapshots.csv
+Traceback (most recent call last):
+  File "/home/abdulrhman/ws_mobile_v2/install/mobile_robot/lib/mobile_robot/action_logger_node", line 362, in main
+    rclpy.spin(node)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+    executor.spin_once()
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 808, in spin_once
+    self._spin_once_impl(timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 797, in _spin_once_impl
+    handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 780, in wait_for_ready_callbacks
+    return next(self._cb_iter)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 681, in _wait_for_ready_callbacks
+    raise ExternalShutdownException()
+rclpy.executors.ExternalShutdownException
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/abdulrhman/ws_mobile_v2/install/mobile_robot/lib/mobile_robot/action_logger_node", line 369, in <module>
+    main()
+  File "/home/abdulrhman/ws_mobile_v2/install/mobile_robot/lib/mobile_robot/action_logger_node", line 365, in main
+    rclpy.shutdown()
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 130, in shutdown
+    _shutdown(context=context)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/utilities.py", line 58, in shutdown
+    return context.shutdown()
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/context.py", line 102, in shutdown
+    self.__context.shutdown()
+rclpy._rclpy_pybind11.RCLError: failed to shutdown: rcl_shutdown already called on the given context, at ./src/rcl/init.c:241
+[ros2run]: Segmentation fault

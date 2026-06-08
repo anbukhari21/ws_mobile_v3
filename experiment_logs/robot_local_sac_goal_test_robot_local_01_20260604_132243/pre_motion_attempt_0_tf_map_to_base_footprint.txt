@@ -1,0 +1,24 @@
+[INFO] [1780568686.177600312] [tf2_echo]: Waiting for transform map ->  base_footprint: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1780568688.153498919] [tf2_echo]: Waiting for transform map ->  base_footprint: Lookup would require extrapolation into the past.  Requested time 1780568688.095885 but the earliest data is at time 1780568688.163878, when looking up transform from frame [base_footprint] to frame [map]
+At time 1780568689.132656852
+- Translation: [1.254, -0.578, 0.000]
+- Rotation: in Quaternion (xyzw) [0.000, 0.000, 0.202, 0.979]
+- Rotation: in RPY (radian) [0.000, -0.000, 0.408]
+- Rotation: in RPY (degree) [0.000, -0.000, 23.354]
+- Matrix:
+  0.918 -0.396  0.000  1.254
+  0.396  0.918  0.000 -0.578
+  0.000  0.000  1.000  0.000
+  0.000  0.000  0.000  1.000
+At time 1780568690.144676166
+- Translation: [1.254, -0.578, 0.000]
+- Rotation: in Quaternion (xyzw) [0.000, 0.000, 0.202, 0.979]
+- Rotation: in RPY (radian) [0.000, -0.000, 0.408]
+- Rotation: in RPY (degree) [0.000, -0.000, 23.354]
+- Matrix:
+  0.918 -0.396  0.000  1.254
+  0.396  0.918  0.000 -0.578
+  0.000  0.000  1.000  0.000
+  0.000  0.000  0.000  1.000
+At time 1780568691.114442540
+- Translation: [1.254, -0.578, 0.000]

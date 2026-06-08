@@ -1,0 +1,21 @@
+[INFO] [launch]: All log files can be found below /home/abdulrahman/.ros/log/2026-06-05-17-27-17-555359-ubuntu1-409591
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [joint_state_publisher-1]: process started with pid [409627]
+[INFO] [robot_state_publisher-2]: process started with pid [409629]
+[INFO] [rviz2-3]: process started with pid [409631]
+[robot_state_publisher-2] [INFO] [1780669637.701306053] [sac_robot_state_publisher]: got segment base_footprint
+[robot_state_publisher-2] [INFO] [1780669637.701424781] [sac_robot_state_publisher]: got segment base_link
+[robot_state_publisher-2] [INFO] [1780669637.701439029] [sac_robot_state_publisher]: got segment body_link
+[robot_state_publisher-2] [INFO] [1780669637.701449715] [sac_robot_state_publisher]: got segment camera_link
+[robot_state_publisher-2] [INFO] [1780669637.701459213] [sac_robot_state_publisher]: got segment camera_link_optical
+[robot_state_publisher-2] [INFO] [1780669637.701467524] [sac_robot_state_publisher]: got segment lidar_link
+[robot_state_publisher-2] [INFO] [1780669637.701477022] [sac_robot_state_publisher]: got segment wheel1_link
+[robot_state_publisher-2] [INFO] [1780669637.701486520] [sac_robot_state_publisher]: got segment wheel2_link
+[robot_state_publisher-2] [INFO] [1780669637.701494831] [sac_robot_state_publisher]: got segment wheel3_link
+[robot_state_publisher-2] [INFO] [1780669637.701504330] [sac_robot_state_publisher]: got segment wheel4_link
+[rviz2-3] [INFO] [1780669637.931833269] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-3] [INFO] [1780669637.931919941] [rviz2]: OpenGl version: 4.5 (GLSL 4.5)
+[joint_state_publisher-1] [INFO] [1780669637.965294580] [sac_joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+[rviz2-3] [INFO] [1780669637.976284109] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-3] [INFO] [1780669648.942548108] [sac_rviz]: Message Filter dropping message: frame 'odom' at time 1780669638.942 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-3] [INFO] [1780669670.538285823] [sac_rviz]: Message Filter dropping message: frame 'odom' at time 1780669669.789 for reason 'discarding message because the queue is full'

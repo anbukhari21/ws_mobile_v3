@@ -1,0 +1,21 @@
+[INFO] [launch]: All log files can be found below /home/abdulrahman/.ros/log/2026-06-05-17-26-20-933439-ubuntu1-403581
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [joint_state_publisher-1]: process started with pid [403617]
+[INFO] [robot_state_publisher-2]: process started with pid [403619]
+[INFO] [rviz2-3]: process started with pid [403621]
+[robot_state_publisher-2] [INFO] [1780669581.098510489] [sac_robot_state_publisher]: got segment base_footprint
+[robot_state_publisher-2] [INFO] [1780669581.098623281] [sac_robot_state_publisher]: got segment base_link
+[robot_state_publisher-2] [INFO] [1780669581.098635154] [sac_robot_state_publisher]: got segment body_link
+[robot_state_publisher-2] [INFO] [1780669581.098645840] [sac_robot_state_publisher]: got segment camera_link
+[robot_state_publisher-2] [INFO] [1780669581.098655338] [sac_robot_state_publisher]: got segment camera_link_optical
+[robot_state_publisher-2] [INFO] [1780669581.098662462] [sac_robot_state_publisher]: got segment lidar_link
+[robot_state_publisher-2] [INFO] [1780669581.098670773] [sac_robot_state_publisher]: got segment wheel1_link
+[robot_state_publisher-2] [INFO] [1780669581.098679084] [sac_robot_state_publisher]: got segment wheel2_link
+[robot_state_publisher-2] [INFO] [1780669581.098687395] [sac_robot_state_publisher]: got segment wheel3_link
+[robot_state_publisher-2] [INFO] [1780669581.098694518] [sac_robot_state_publisher]: got segment wheel4_link
+[joint_state_publisher-1] [INFO] [1780669581.279508053] [sac_joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+[rviz2-3] [INFO] [1780669581.383106202] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-3] [INFO] [1780669581.383202372] [rviz2]: OpenGl version: 4.5 (GLSL 4.5)
+[rviz2-3] [INFO] [1780669581.425746524] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-3] [ERROR] [1780669582.457695961] [rviz2]: Lookup would require extrapolation into the future.  Requested time 1780669582.441391 but the latest data is at time 1780669582.414546, when looking up transform from frame [laser] to frame [odom]
+[rviz2-3] [INFO] [1780669595.689914293] [sac_rviz]: Message Filter dropping message: frame 'laser' at time 1780669582.246 for reason 'discarding message because the queue is full'

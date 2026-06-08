@@ -1,0 +1,120 @@
+=== START 2026-06-06T04:01:48+03:00 ===
+WORKSPACE=/home/abdulrhman/ws_mobile_v2
+ROS_DOMAIN_ID=10
+ROS_DISCOVERY_SERVER=127.0.0.1:11811
+SPIN_SPEED=0.20
+SPIN_MODE=alternate
+SPIN_DIRECTION=left
+SPIN_INTERVAL_SEC=180
+SPIN_PAUSE_SEC=0.5
+ANGULAR_Z=0.20
+DURATION_SEC=0
+STATUS_PERIOD_SEC=60
+
+--- services ---
+● fastdds-discovery.service - Fast DDS Discovery Server for ROS 2 robot network
+     Loaded: loaded (/etc/systemd/system/fastdds-discovery.service; enabled; vendor preset: enabled)
+     Active: active (running) since Sat 2026-06-06 00:37:02 +03; 3h 24min ago
+    Process: 1235 ExecStartPre=/usr/bin/install -d -o abdulrhman -g abdulrhman /run/ros_home /run/ros_logs /run/ros_tmp (code=exited, status=0/SUCCESS)
+   Main PID: 1240 (bash)
+      Tasks: 11 (limit: 8809)
+     Memory: 27.2M
+        CPU: 1.481s
+     CGroup: /system.slice/fastdds-discovery.service
+             ├─1240 /bin/bash -lc "source /opt/ros/humble/setup.bash && exec fastdds discovery -i 0 -p 11811"
+             ├─2348 python3 /opt/ros/humble/bin/../tools/fastdds/fastdds.py discovery -i 0 -p 11811
+             └─2355 /opt/ros/humble/bin/fast-discovery-server -i 0 -p 11811
+
+Jun 06 00:37:02 JTS systemd[1]: Starting Fast DDS Discovery Server for ROS 2 robot network...
+Jun 06 00:37:02 JTS systemd[1]: Started Fast DDS Discovery Server for ROS 2 robot network.
+Jun 06 00:37:09 JTS bash[2355]: ### Server is running ###
+Jun 06 00:37:09 JTS bash[2355]:   Participant Type:   SERVER
+Jun 06 00:37:09 JTS bash[2355]:   Security:           NO
+Jun 06 00:37:09 JTS bash[2355]:   Server ID:          0
+Jun 06 00:37:09 JTS bash[2355]:   Server GUID prefix: 44.53.00.5f.45.50.52.4f.53.49.4d.41
+Jun 06 00:37:09 JTS bash[2355]:   Server Addresses:   UDPv4:[0.0.0.0]:11811
+
+● robot-laser-tf.service - Static TF base_footprint to laser
+     Loaded: loaded (/etc/systemd/system/robot-laser-tf.service; enabled; vendor preset: enabled)
+    Drop-In: /etc/systemd/system/robot-laser-tf.service.d
+             └─20-ros-discovery-server.conf
+     Active: active (running) since Sat 2026-06-06 00:37:02 +03; 3h 24min ago
+    Process: 1241 ExecStartPre=/usr/bin/install -d -o abdulrhman -g abdulrhman /run/ros_home /run/ros_logs /run/ros_tmp (code=exited, status=0/SUCCESS)
+   Main PID: 1244 (ros2)
+      Tasks: 10 (limit: 8809)
+     Memory: 36.0M
+        CPU: 1.367s
+     CGroup: /system.slice/robot-laser-tf.service
+             ├─1244 /usr/bin/python3 /opt/ros/humble/bin/ros2 run tf2_ros static_transform_publisher 0.0 0.0 0.15 0.0 0.0 0.0 base_footprint laser
+             └─2379 /opt/ros/humble/lib/tf2_ros/static_transform_publisher 0.0 0.0 0.15 0.0 0.0 0.0 base_footprint laser
+
+Jun 06 00:37:02 JTS systemd[1]: Starting Static TF base_footprint to laser...
+Jun 06 00:37:02 JTS systemd[1]: Started Static TF base_footprint to laser.
+Jun 06 00:37:10 JTS bash[2379]: [WARN] [1780695430.526544208] []: Old-style arguments are deprecated; see --help for new-style arguments
+Jun 06 00:37:10 JTS bash[2379]: [INFO] [1780695430.590452176] [static_transform_publisher_7DO8XBT3DdRJuhCE]: Spinning until stopped - publishing transform
+Jun 06 00:37:10 JTS bash[2379]: translation: ('0.000000', '0.000000', '0.150000')
+Jun 06 00:37:10 JTS bash[2379]: rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+Jun 06 00:37:10 JTS bash[2379]: from 'base_footprint' to 'laser'
+
+● rplidar.service - RPLIDAR ROS2 driver
+     Loaded: loaded (/etc/systemd/system/rplidar.service; enabled; vendor preset: enabled)
+    Drop-In: /etc/systemd/system/rplidar.service.d
+             └─10-start-motor.conf, 20-ros-discovery-server.conf, 30-fast-start-motor.conf
+     Active: active (running) since Sat 2026-06-06 00:37:20 +03; 3h 24min ago
+    Process: 1242 ExecStartPre=/usr/bin/install -d -o abdulrhman -g abdulrhman /run/ros_home /run/ros_logs /run/ros_tmp (code=exited, status=0/SUCCESS)
+    Process: 1245 ExecStartPre=/usr/local/bin/wait_robot_serial.sh (code=exited, status=0/SUCCESS)
+    Process: 2230 ExecStartPost=/bin/bash -lc source /opt/ros/humble/setup.bash; export ROS_DOMAIN_ID=10 RMW_IMPLEMENTATION=rmw_fastrtps_cpp ROS_LOCALHOST_ONLY=0 ROS_DISCOVERY_SERVER=127.0.0.1:11811 FASTDDS_BUILTIN_TRANSPORTS=UDPv4; sleep 4; timeout 10 ros2 service call /start_motor std_srvs/srv/Empty "{}" || true; ros2 daemon stop >/dev/null 2>&1 || true (code=exited, status=0/SUCCESS)
+   Main PID: 2229 (ros2)
+      Tasks: 12 (limit: 8809)
+     Memory: 45.8M
+        CPU: 7.271s
+     CGroup: /system.slice/rplidar.service
+             ├─2229 /usr/bin/python3 /opt/ros/humble/bin/ros2 launch rplidar_ros rplidar_s1_launch.py serial_port:=/dev/serial/by-id/usb-Silicon_Labs_CP2102N_USB_to_UART_Bridge_Controller_0a7d06cd546eef119f4be9c2c169b110-if00-port0 serial_baudrate:=460800
+             └─2417 /opt/ros/humble/lib/rplidar_ros/rplidar_node --ros-args -r __node:=rplidar_node --params-file /run/ros_tmp/launch_params_59wwb_7j
+
+Jun 06 00:37:13 JTS bash[2229]: [rplidar_node-1] [INFO] [1780695433.655635568] [rplidar_node]: RPLidar health status : OK.
+Jun 06 00:37:13 JTS bash[2229]: [rplidar_node-1] [INFO] [1780695433.655659440] [rplidar_node]: Start
+Jun 06 00:37:14 JTS bash[2229]: [rplidar_node-1] [INFO] [1780695434.376468176] [rplidar_node]: current scan mode: DenseBoost, sample rate: 5 Khz, max_distance: 40.0 m, scan frequency:10.0 Hz,
+Jun 06 00:37:14 JTS bash[2573]: waiting for service to become available...
+Jun 06 00:37:15 JTS bash[2573]: requester: making request: std_srvs.srv.Empty_Request()
+Jun 06 00:37:16 JTS bash[2229]: [rplidar_node-1] [INFO] [1780695436.407970544] [rplidar_node]: Start
+Jun 06 00:37:19 JTS bash[2229]: [rplidar_node-1] [INFO] [1780695439.069663120] [rplidar_node]: current scan mode: DenseBoost, sample rate: 5 Khz, max_distance: 40.0 m, scan frequency:10.0 Hz,
+Jun 06 00:37:19 JTS bash[2573]: response:
+Jun 06 00:37:19 JTS bash[2573]: std_srvs.srv.Empty_Response()
+Jun 06 00:37:20 JTS systemd[1]: Started RPLIDAR ROS2 driver.
+
+● yahboom-base.service - Yahboom ROS2 base driver
+     Loaded: loaded (/etc/systemd/system/yahboom-base.service; enabled; vendor preset: enabled)
+    Drop-In: /etc/systemd/system/yahboom-base.service.d
+             └─20-ros-discovery-server.conf
+     Active: active (running) since Sat 2026-06-06 00:37:07 +03; 3h 24min ago
+    Process: 1243 ExecStartPre=/usr/bin/install -d -o abdulrhman -g abdulrhman /run/ros_home /run/ros_logs /run/ros_tmp (code=exited, status=0/SUCCESS)
+    Process: 1246 ExecStartPre=/usr/local/bin/wait_robot_serial.sh (code=exited, status=0/SUCCESS)
+   Main PID: 2228 (python3)
+      Tasks: 14 (limit: 8809)
+     Memory: 61.8M
+        CPU: 12.849s
+     CGroup: /system.slice/yahboom-base.service
+             └─2228 python3 /home/abdulrhman/robot_hardware/nodes/yahboom_base_node.py
+
+Jun 06 00:37:02 JTS wait_robot_serial.sh[1253]: /dev/serial/by-id:
+Jun 06 00:37:02 JTS wait_robot_serial.sh[1253]: total 0
+Jun 06 00:37:02 JTS wait_robot_serial.sh[1253]: lrwxrwxrwx 1 root root 13 يونيو   6 00:36 usb-1a86_USB_Serial-if00-port0 -> ../../ttyUSB1
+Jun 06 00:37:02 JTS wait_robot_serial.sh[1253]: lrwxrwxrwx 1 root root 13 يناير   1  1970 usb-Silicon_Labs_CP2102N_USB_to_UART_Bridge_Controller_0a7d06cd546eef119f4be9c2c169b110-if00-port0 -> ../../ttyUSB0
+Jun 06 00:37:02 JTS wait_robot_serial.sh[1246]: Waiting 5 seconds for ports to stabilize...
+Jun 06 00:37:07 JTS systemd[1]: Started Yahboom ROS2 base driver.
+Jun 06 00:37:11 JTS bash[2228]: [INFO] [1780695431.057763344] [yahboom_base_node]: Yahboom base node started.
+Jun 06 00:37:11 JTS bash[2228]: [INFO] [1780695431.058644240] [yahboom_base_node]: Serial port: /dev/serial/by-id/usb-1a86_USB_Serial-if00-port0
+Jun 06 00:37:11 JTS bash[2228]: [INFO] [1780695431.059385072] [yahboom_base_node]: Wheel track: 0.120 m
+Jun 06 00:37:11 JTS bash[2228]: [INFO] [1780695431.060080912] [yahboom_base_node]: Max wheel speed: 120 mm/s
+
+--- topics ---
+/cmd_vel
+/joint_states
+/odom
+/parameter_events
+/robot_description
+/rosout
+/scan
+/tf
+/tf_static

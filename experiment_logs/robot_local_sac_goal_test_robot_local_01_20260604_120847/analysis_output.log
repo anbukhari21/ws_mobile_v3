@@ -1,0 +1,36 @@
+Loaded scan snapshots from: /home/abdulrhman/ws_mobile_v2/experiment_logs/robot_local_sac_goal_test_robot_local_01_20260604_120847/robot_action_log_scan_snapshots.csv
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/PIL/ImageFile.py", line 495, in _save
+    fh = fp.fileno()
+AttributeError: '_idat' object has no attribute 'fileno'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/abdulrhman/ws_mobile_v2/src/mobile_robot/mobile_robot/analyze_experiment_log.py", line 1300, in <module>
+    main()
+  File "/home/abdulrhman/ws_mobile_v2/src/mobile_robot/mobile_robot/analyze_experiment_log.py", line 1271, in main
+    generate_plots(
+  File "/home/abdulrhman/ws_mobile_v2/src/mobile_robot/mobile_robot/analyze_experiment_log.py", line 1069, in generate_plots
+    save_path_plot(out_dir / "01_robot_path.png", xs, ys, goal_x, goal_y, success_radius)
+  File "/home/abdulrhman/ws_mobile_v2/src/mobile_robot/mobile_robot/analyze_experiment_log.py", line 393, in save_path_plot
+    fig.savefig(path, dpi=160)
+  File "/usr/lib/python3/dist-packages/matplotlib/figure.py", line 3019, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/usr/lib/python3/dist-packages/matplotlib/backend_bases.py", line 2319, in print_figure
+    result = print_method(
+  File "/usr/lib/python3/dist-packages/matplotlib/backend_bases.py", line 1648, in wrapper
+    return func(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/matplotlib/_api/deprecation.py", line 412, in wrapper
+    return func(*inner_args, **inner_kwargs)
+  File "/usr/lib/python3/dist-packages/matplotlib/backends/backend_agg.py", line 541, in print_png
+    mpl.image.imsave(
+  File "/usr/lib/python3/dist-packages/matplotlib/image.py", line 1675, in imsave
+    image.save(fname, **pil_kwargs)
+  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 2212, in save
+    save_handler(self, fp, filename)
+  File "/usr/lib/python3/dist-packages/PIL/PngImagePlugin.py", line 1348, in _save
+    ImageFile._save(im, _idat(fp, chunk), [("zip", (0, 0) + im.size, 0, rawmode)])
+  File "/usr/lib/python3/dist-packages/PIL/ImageFile.py", line 509, in _save
+    l, s, d = e.encode(bufsize)
+KeyboardInterrupt

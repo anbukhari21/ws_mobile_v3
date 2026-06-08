@@ -1,0 +1,3 @@
+[37;1m2026-06-05 17:14:54.017 [31;1m[[37;1mSERVER_CLIENT_DISCOVERY[31;1m Error] [37mWrong ipv4 address passed into the server's list JTS.local[34;1m -> Function [36mload_environment_server_info[m
+[INFO] [1780668894.077125643] [battery_endurance_monitor]: Battery endurance CSV: /home/abdulrahman/ws_mobile_v2/experiment_logs/endurance_battery_20260605_171448/battery_endurance.csv
+[WARN] [1780668894.077591048] [battery_endurance_monitor]: Battery endurance monitor is passive. It does not publish /cmd_vel.

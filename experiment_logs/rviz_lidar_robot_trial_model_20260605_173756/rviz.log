@@ -1,0 +1,1157 @@
+[INFO] [launch]: All log files can be found below /home/abdulrahman/.ros/log/2026-06-05-17-37-56-844114-ubuntu1-482768
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [joint_state_publisher-1]: process started with pid [482859]
+[INFO] [robot_state_publisher-2]: process started with pid [482861]
+[INFO] [rviz2-3]: process started with pid [482863]
+[robot_state_publisher-2] [INFO] [1780670276.975419348] [sac_robot_state_publisher]: got segment base_footprint
+[robot_state_publisher-2] [INFO] [1780670276.975532138] [sac_robot_state_publisher]: got segment body_link
+[robot_state_publisher-2] [INFO] [1780670276.975545198] [sac_robot_state_publisher]: got segment camera_link
+[robot_state_publisher-2] [INFO] [1780670276.975557071] [sac_robot_state_publisher]: got segment camera_link_optical
+[robot_state_publisher-2] [INFO] [1780670276.975568944] [sac_robot_state_publisher]: got segment lidar_link
+[robot_state_publisher-2] [INFO] [1780670276.975579629] [sac_robot_state_publisher]: got segment wheel1_link
+[robot_state_publisher-2] [INFO] [1780670276.975590315] [sac_robot_state_publisher]: got segment wheel2_link
+[robot_state_publisher-2] [INFO] [1780670276.975601000] [sac_robot_state_publisher]: got segment wheel3_link
+[robot_state_publisher-2] [INFO] [1780670276.975611686] [sac_robot_state_publisher]: got segment wheel4_link
+[joint_state_publisher-1] [INFO] [1780670277.189302616] [sac_joint_state_publisher]: Waiting for robot_description to be published on the robot_description topic...
+[rviz2-3] [INFO] [1780670277.199742288] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-3] [INFO] [1780670277.199826584] [rviz2]: OpenGl version: 4.5 (GLSL 4.5)
+[rviz2-3] [INFO] [1780670277.239614403] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670340.698941 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670340.700612 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670340.701437 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670340.702204 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670340.702949 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670340.704050 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670340.731391 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670340.794895 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670340.864958 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670340.908293 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670340.977780 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670341.049025 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670341.092480 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670341.162361 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670341.206151 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670341.275634 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670341.345902 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670341.389366 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670341.458795 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670341.522534 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670341.570435 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670341.634150 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670341.682948 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670341.753989 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670341.819715 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670341.868278 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670341.931971 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670342.001880 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670342.051579 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670342.116115 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670342.165557 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670342.228776 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670342.297922 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670342.346769 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670342.411500 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670342.483018 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670342.527203 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670342.597780 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670342.648905 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670342.713987 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670342.764294 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670342.829152 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670342.883018 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670342.955097 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670343.003481 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670343.083524 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670343.127529 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670343.198096 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670343.247262 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670343.312199 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670343.382393 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670343.426196 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670343.496899 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670343.546441 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670343.615565 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670343.664687 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670343.729869 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670343.801551 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670343.851073 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670343.916031 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670343.965228 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670344.030499 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670344.101062 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670344.150610 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670344.219492 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670344.270058 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670344.334509 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670344.383718 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670344.453047 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670344.517384 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670344.566210 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670344.630523 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670344.700556 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670344.749279 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670344.813798 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670344.862780 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670344.927069 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670344.997143 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670345.046276 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670345.110284 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670345.179992 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670345.223050 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670345.291792 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670345.361318 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670345.404506 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670345.473836 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670345.537154 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670345.585050 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670345.654109 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670345.717434 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670345.765915 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670345.829189 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670345.898102 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670345.946113 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670346.009546 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670346.078590 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670346.147792 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670346.190952 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670346.260310 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670346.302838 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670346.371580 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670346.434777 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670346.482660 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670346.551213 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670346.614488 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670346.662497 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670346.725724 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670346.794214 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670346.862758 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670346.905275 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670346.974528 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670347.038042 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670347.086427 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670347.155082 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670347.218463 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670347.266599 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670347.329761 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670347.398440 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670347.446433 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670347.509701 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670347.578222 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670347.646929 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670347.689803 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670347.759520 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670347.802793 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670347.872080 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670347.936008 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670347.987168 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670348.057804 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670348.101995 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670348.172853 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670348.237572 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670348.286898 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670348.357020 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670348.422408 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670348.471267 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670348.535505 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670348.584183 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670348.654761 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670348.719428 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670348.768710 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670348.833198 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670348.881809 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670348.950808 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670349.015065 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670349.064201 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670349.127949 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670349.198246 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670349.246629 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670349.310761 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670349.380758 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670349.424215 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670349.492950 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670349.561529 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670349.604006 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670349.673054 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670349.736867 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670349.785242 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670349.853921 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670349.917981 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670349.968138 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670350.033076 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] [INFO] [1780670625.536692797] [sac_rviz]: Message Filter dropping message: frame 'laser' at time 1780670349.661 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670350.082316 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670350.152320 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670350.216330 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670350.264509 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670350.328242 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670350.397715 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670350.445987 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670350.509853 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670350.579152 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670350.621879 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670350.690571 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670350.759342 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670350.801997 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670350.872340 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670350.936236 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670350.984949 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670351.054521 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670351.118509 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670351.168141 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670351.231654 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670351.300202 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670351.348214 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670351.411761 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670351.480971 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670351.523752 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670351.592504 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670351.660825 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670351.703370 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670351.771837 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670351.834921 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670351.882919 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670351.951364 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670352.014411 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670352.062163 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670352.125348 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670352.193757 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670352.262280 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670352.304832 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670352.373264 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670352.436836 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670352.485516 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670352.554186 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670352.617543 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670352.665565 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] [INFO] [1780670628.190011367] [sac_rviz]: Message Filter dropping message: frame 'laser' at time 1780670352.259 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670352.729021 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670352.797905 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670352.846052 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670352.909622 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670352.978835 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670353.021765 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670353.090297 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670353.158909 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670353.221908 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670353.269610 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670353.332649 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670353.401964 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670353.449973 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670353.513441 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670353.582179 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670353.625075 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670353.693386 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670353.761971 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670353.804684 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670353.874020 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670353.937674 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670353.986251 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670354.055362 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670354.119107 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670354.167694 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670354.231578 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670354.300766 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670354.349348 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670354.413278 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670354.461560 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670354.525269 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670354.594595 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670354.663658 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670354.706383 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670354.775259 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670354.838940 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670354.887244 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670354.956194 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670355.019850 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670355.068147 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670355.132191 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670355.200755 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670355.248650 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] [INFO] [1780670630.750170952] [sac_rviz]: Message Filter dropping message: frame 'laser' at time 1780670355.148 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670355.311835 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670355.380442 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670355.422815 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670355.491687 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670355.560193 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670355.602595 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670355.671123 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670355.734222 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670355.781926 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670355.850275 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670355.913272 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670355.981598 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670356.023960 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670356.092250 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670356.160581 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670356.203415 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670356.272020 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670356.335414 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670356.384094 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670356.454098 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670356.517886 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670356.566530 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670356.630538 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670356.699979 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670356.748193 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670356.811320 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670356.879810 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670356.922140 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670356.990494 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670357.059321 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670357.101981 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670357.170679 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670357.234301 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670357.282351 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670357.350840 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670357.414466 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670357.462491 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670357.526108 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670357.595026 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670357.664015 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670357.706782 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670357.775454 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670357.838639 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] [INFO] [1780670633.310177345] [sac_rviz]: Message Filter dropping message: frame 'laser' at time 1780670357.748 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670357.886689 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670357.955380 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670358.019415 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670358.068060 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670358.132063 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670358.201227 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670358.249293 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670358.312707 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670358.381681 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670358.424262 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670358.492986 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670358.562241 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670358.605292 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670358.674682 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670358.739039 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670358.787693 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670358.856757 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670358.920576 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670358.968925 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670359.033205 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670359.081657 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670359.151266 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670359.215395 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670359.263350 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670359.327492 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670359.396506 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670359.444788 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670359.508281 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670359.576874 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670359.645328 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670359.687823 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670359.756198 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670359.819576 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670359.867908 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670359.931840 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670360.001101 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670360.048959 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670360.113184 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670360.161652 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670360.225908 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670360.296303 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670360.344567 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670360.407877 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670360.476677 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670360.545570 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670360.588171 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] [INFO] [1780670636.062417744] [sac_rviz]: Message Filter dropping message: frame 'laser' at time 1780670360.143 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670360.656695 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670360.720121 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670360.768001 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670360.831148 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670360.899950 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670360.947761 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670361.011089 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670361.080512 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670361.123813 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670361.193697 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670361.263235 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670361.306676 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670361.375970 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670361.444335 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670361.486616 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670361.555008 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670361.617970 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670361.665740 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670361.728649 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670361.796978 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670361.844761 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670361.908308 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670361.978159 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670362.021342 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670362.090729 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670362.159158 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670362.201792 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670362.271627 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670362.335804 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670362.384238 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670362.453697 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670362.516627 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670362.564097 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670362.627128 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670362.696852 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670362.744282 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670362.807344 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670362.875334 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] Warning: TF_OLD_DATA ignoring data from the past for frame base_footprint at time 1780670362.937936 according to authority Authority undetectable
+[rviz2-3] Possible reasons are listed at http://wiki.ros.org/tf/Errors%20explained
+[rviz2-3]          at line 294 in ./src/buffer_core.cpp
+[rviz2-3] [INFO] [1780670638.590435516] [sac_rviz]: Message Filter dropping message: frame 'laser' at time 1780670362.742 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[rviz2-3] [INFO] [1780670648.485459540] [sac_rviz]: Message Filter dropping message: frame 'laser' at time 1780670638.453 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [rviz2-3]: process has finished cleanly [pid 482863]

@@ -1,0 +1,4 @@
+Loaded scan snapshots from: /home/abdulrhman/ws_mobile_v2/experiment_logs/robot_local_sac_goal_test_robot_local_01_20260604_115427/robot_action_log_scan_snapshots.csv
+Summary written to: /home/abdulrhman/ws_mobile_v2/experiment_logs/robot_local_sac_goal_test_robot_local_01_20260604_115427/experiment_validation_summary.txt
+Summary CSV written to: /home/abdulrhman/ws_mobile_v2/experiment_logs/robot_local_sac_goal_test_robot_local_01_20260604_115427/experiment_validation_summary.csv
+Plots written to: /home/abdulrhman/ws_mobile_v2/experiment_logs/robot_local_sac_goal_test_robot_local_01_20260604_115427/plots

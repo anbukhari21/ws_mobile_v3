@@ -1,0 +1,126 @@
+[INFO] [launch]: All log files can be found below /home/abdulrhman/.ros/log/2026-06-03-11-07-56-236963-JTS-5485
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [launch.user]: [SAC AUTONOMY] /map + AMCL -> route generation -> SAC raw cmd -> emergency-only filter -> /cmd_vel. Old local rollout planner, PRE_ALIGN, residual yaw, command floor, recovery behavior, and online SAC are off.
+[INFO] [planner_server-1]: process started with pid [5637]
+[INFO] [lifecycle_manager-2]: process started with pid [5639]
+[INFO] [center_route_requester_node-3]: process started with pid [5641]
+[INFO] [local_target_node-4]: process started with pid [5648]
+[INFO] [sac_safety_filter_node-5]: process started with pid [5656]
+[INFO] [sac_motion_node-6]: process started with pid [5664]
+[INFO] [sac_validation_logger-7]: process started with pid [5667]
+[INFO] [goal_relative_calculator-8]: process started with pid [5675]
+[lifecycle_manager-2] [INFO] [1780474082.565540465] [lifecycle_manager_sac_route]: Creating
+[lifecycle_manager-2] [INFO] [1780474082.578126515] [lifecycle_manager_sac_route]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[planner_server-1] [INFO] [1780474082.644994728] [route_server]: 
+[planner_server-1] 	route_server lifecycle node launched. 
+[planner_server-1] 	Waiting on external lifecycle transitions to activate
+[planner_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-1] [INFO] [1780474082.664665626] [route_server]: Creating
+[planner_server-1] [INFO] [1780474082.692064842] [global_costmap.global_costmap]: 
+[planner_server-1] 	global_costmap lifecycle node launched. 
+[planner_server-1] 	Waiting on external lifecycle transitions to activate
+[planner_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-1] [INFO] [1780474082.709814997] [global_costmap.global_costmap]: Creating Costmap
+[lifecycle_manager-2] [INFO] [1780474083.740168379] [lifecycle_manager_sac_route]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-2] [INFO] [1780474083.740303549] [lifecycle_manager_sac_route]: [34m[1mConfiguring route_server[0m[0m
+[planner_server-1] [INFO] [1780474083.742014464] [route_server]: Configuring
+[planner_server-1] [INFO] [1780474083.742130946] [global_costmap.global_costmap]: Configuring
+[planner_server-1] [INFO] [1780474083.802999578] [global_costmap.global_costmap]: Using plugin "static_layer"
+[planner_server-1] [INFO] [1780474083.845575549] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[planner_server-1] [INFO] [1780474083.855080126] [global_costmap.global_costmap]: Subscribing to updates
+[planner_server-1] [INFO] [1780474083.870030735] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[planner_server-1] [INFO] [1780474083.871568302] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[planner_server-1] [INFO] [1780474083.879789813] [global_costmap.global_costmap]: Subscribed to Topics: scan
+[planner_server-1] [INFO] [1780474083.896316550] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[planner_server-1] [INFO] [1780474083.897776611] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[planner_server-1] [INFO] [1780474083.901813494] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[planner_server-1] [INFO] [1780474083.937123173] [route_server]: Created global planner plugin GridBased of type nav2_navfn_planner/NavfnPlanner
+[planner_server-1] [INFO] [1780474083.938519937] [route_server]: Configuring plugin GridBased of type NavfnPlanner
+[planner_server-1] [INFO] [1780474083.940909778] [route_server]: Planner Server has GridBased  planners available.
+[planner_server-1] [INFO] [1780474083.985156151] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 236 X 216 at 0.020000 m/pix
+[lifecycle_manager-2] [INFO] [1780474084.002626810] [lifecycle_manager_sac_route]: [34m[1mActivating route_server[0m[0m
+[planner_server-1] [INFO] [1780474084.003548109] [route_server]: Activating
+[planner_server-1] [INFO] [1780474084.003646447] [global_costmap.global_costmap]: Activating
+[planner_server-1] [INFO] [1780474084.003677616] [global_costmap.global_costmap]: Checking transform
+[planner_server-1] [INFO] [1780474084.003938485] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Lookup would require extrapolation at time 1780474083.973686, but only time 1780474084.842838 is in the buffer, when looking up transform from frame [base_footprint] to frame [map]
+[sac_safety_filter_node-5] [INFO] [1780474084.015285819] [sac_safety_filter_node]: Emergency-only SAC filter active: if front_min < 0.070 m and linear.x > 0, only linear.x is set to 0. angular.z is preserved exactly.
+[sac_validation_logger-7] [INFO] [1780474084.041435470] [sac_validation_logger]: Writing SAC navigation validation CSV: /home/abdulrhman/ws_mobile_v2/experiment_logs/robot_local_sac_goal_test_robot_local_01_20260603_110548/sac_motion_validation.csv
+[goal_relative_calculator-8] [INFO] [1780474084.134230089] [goal_relative_calculator]: Goal relative calculator ready: publishes /goal_distance, /goal_angle, /goal_valid, /goal_reached
+[planner_server-1] [INFO] [1780474084.503857334] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 1780474084.455487 but the earliest data is at time 1780474084.842838, when looking up transform from frame [base_footprint] to frame [map]
+[planner_server-1] [INFO] [1780474085.003982460] [global_costmap.global_costmap]: start
+[planner_server-1] [INFO] [1780474085.257560486] [route_server]: Activating plugin GridBased of type NavfnPlanner
+[planner_server-1] [INFO] [1780474085.261746362] [route_server]: Creating bond (route_server) to lifecycle manager.
+[lifecycle_manager-2] [INFO] [1780474085.475632161] [lifecycle_manager_sac_route]: Server route_server connected with bond.
+[lifecycle_manager-2] [INFO] [1780474085.475770660] [lifecycle_manager_sac_route]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-2] [INFO] [1780474085.475801444] [lifecycle_manager_sac_route]: [34m[1mCreating bond timer...[0m[0m
+[center_route_requester_node-3] [WARN] [1780474085.858289694] [center_route_requester]: Waiting for map->base_footprint TF: Lookup would require extrapolation into the past.  Requested time 1780474085.534870 but the earliest data is at time 1780474086.041548, when looking up transform from frame [base_footprint] to frame [map]
+[center_route_requester_node-3] [INFO] [1780474086.572517706] [center_route_requester]: Published center route with 169 poses.
+[goal_relative_calculator-8] [INFO] [1780474087.097476061] [goal_relative_calculator]: goal_distance=1.675m goal_angle=-2.345rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780474090.098287029] [goal_relative_calculator]: goal_distance=1.676m goal_angle=-2.345rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780474093.099349173] [goal_relative_calculator]: goal_distance=1.676m goal_angle=-2.345rad pose_source=tf
+[sac_motion_node-6] [INFO] [1780474095.081914268] [sac_motion_node]: Loading SAC navigation model: /home/abdulrhman/ws_mobile_v2/rl_models/sac_goal_policy.zip
+[goal_relative_calculator-8] [INFO] [1780474096.112798180] [goal_relative_calculator]: goal_distance=1.676m goal_angle=-2.345rad pose_source=tf
+[sac_motion_node-6] [INFO] [1780474098.071600659] [sac_motion_node]: SAC navigation observation schema:
+[sac_motion_node-6] [INFO] [1780474098.072555877] [sac_motion_node]:   00: lookahead_distance_norm
+[sac_motion_node-6] [INFO] [1780474098.073349781] [sac_motion_node]:   01: lookahead_angle_norm
+[sac_motion_node-6] [INFO] [1780474098.074105412] [sac_motion_node]:   02: sin_lookahead_angle
+[sac_motion_node-6] [INFO] [1780474098.074865906] [sac_motion_node]:   03: cos_lookahead_angle
+[sac_motion_node-6] [INFO] [1780474098.075633761] [sac_motion_node]:   04: signed_cross_track_error_norm
+[sac_motion_node-6] [INFO] [1780474098.076476370] [sac_motion_node]:   05: abs_cross_track_error_norm
+[sac_motion_node-6] [INFO] [1780474098.077279617] [sac_motion_node]:   06: cross_track_error_delta_norm
+[sac_motion_node-6] [INFO] [1780474098.078057872] [sac_motion_node]:   07: path_heading_error_norm
+[sac_motion_node-6] [INFO] [1780474098.078798207] [sac_motion_node]:   08: sin_path_heading_error
+[sac_motion_node-6] [INFO] [1780474098.079574190] [sac_motion_node]:   09: cos_path_heading_error
+[sac_motion_node-6] [INFO] [1780474098.080338557] [sac_motion_node]:   10: path_progress_fraction
+[sac_motion_node-6] [INFO] [1780474098.081055243] [sac_motion_node]:   11: remaining_path_distance_norm
+[sac_motion_node-6] [INFO] [1780474098.081753688] [sac_motion_node]:   12: distance_to_segment_end_norm
+[sac_motion_node-6] [INFO] [1780474098.082457030] [sac_motion_node]:   13: upcoming_turn_angle_norm
+[sac_motion_node-6] [INFO] [1780474098.083152660] [sac_motion_node]:   14: upcoming_turn_direction
+[sac_motion_node-6] [INFO] [1780474098.083874978] [sac_motion_node]:   15: previous_cmd_linear_norm
+[sac_motion_node-6] [INFO] [1780474098.084588912] [sac_motion_node]:   16: previous_cmd_angular_norm
+[sac_motion_node-6] [INFO] [1780474098.085330654] [sac_motion_node]:   17: previous_raw_action_linear
+[sac_motion_node-6] [INFO] [1780474098.086071373] [sac_motion_node]:   18: previous_raw_action_angular
+[sac_motion_node-6] [INFO] [1780474098.086822107] [sac_motion_node]:   19: linear_speed_norm
+[sac_motion_node-6] [INFO] [1780474098.087561802] [sac_motion_node]:   20: angular_speed_norm
+[sac_motion_node-6] [INFO] [1780474098.088302328] [sac_motion_node]:   21: distance_to_final_waypoint_norm
+[sac_motion_node-6] [INFO] [1780474098.089024166] [sac_motion_node]:   22: current_segment_index_norm
+[sac_motion_node-6] [INFO] [1780474098.089708499] [sac_motion_node]:   23: lidar_sector_0_norm
+[sac_motion_node-6] [INFO] [1780474098.090395777] [sac_motion_node]:   24: lidar_sector_1_norm
+[sac_motion_node-6] [INFO] [1780474098.091080270] [sac_motion_node]:   25: lidar_sector_2_norm
+[sac_motion_node-6] [INFO] [1780474098.091797532] [sac_motion_node]:   26: lidar_sector_3_norm
+[sac_motion_node-6] [INFO] [1780474098.092445833] [sac_motion_node]:   27: lidar_sector_4_norm
+[sac_motion_node-6] [INFO] [1780474098.093087637] [sac_motion_node]:   28: lidar_sector_5_norm
+[sac_motion_node-6] [INFO] [1780474098.093729154] [sac_motion_node]:   29: lidar_sector_6_norm
+[sac_motion_node-6] [INFO] [1780474098.094351854] [sac_motion_node]:   30: lidar_sector_7_norm
+[sac_motion_node-6] [WARN] [1780474098.600312297] [sac_motion_node]: Waiting for map->base_footprint TF: Lookup would require extrapolation into the past.  Requested time 1780474098.499565 but the earliest data is at time 1780474099.023276, when looking up transform from frame [base_footprint] to frame [map]
+[goal_relative_calculator-8] [INFO] [1780474099.098480648] [goal_relative_calculator]: goal_distance=1.676m goal_angle=-2.345rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780474102.100739994] [goal_relative_calculator]: goal_distance=1.690m goal_angle=-2.408rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780474105.097334208] [goal_relative_calculator]: goal_distance=1.740m goal_angle=-2.486rad pose_source=tf
+[center_route_requester_node-3] [INFO] [1780474106.574220022] [center_route_requester]: Published center route with 177 poses.
+[goal_relative_calculator-8] [INFO] [1780474108.098632789] [goal_relative_calculator]: goal_distance=1.781m goal_angle=-2.447rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780474111.097646888] [goal_relative_calculator]: goal_distance=1.803m goal_angle=-2.240rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780474114.097429190] [goal_relative_calculator]: goal_distance=1.815m goal_angle=-1.960rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780474117.097871709] [goal_relative_calculator]: goal_distance=1.827m goal_angle=-1.602rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780474120.098298483] [goal_relative_calculator]: goal_distance=1.823m goal_angle=-1.210rad pose_source=tf
+[center_route_requester_node-3] [INFO] [1780474120.568836049] [center_route_requester]: Published center route with 182 poses.
+[goal_relative_calculator-8] [INFO] [1780474123.097936649] [goal_relative_calculator]: goal_distance=1.801m goal_angle=-0.758rad pose_source=tf
+[center_route_requester_node-3] [INFO] [1780474125.580144030] [center_route_requester]: Published center route with 170 poses.
+[goal_relative_calculator-8] [INFO] [1780474126.100398834] [goal_relative_calculator]: goal_distance=1.695m goal_angle=-0.234rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780474129.098043760] [goal_relative_calculator]: goal_distance=1.540m goal_angle=0.040rad pose_source=tf
+[center_route_requester_node-3] [INFO] [1780474131.582445722] [center_route_requester]: Published center route with 141 poses.
+[goal_relative_calculator-8] [INFO] [1780474132.098979333] [goal_relative_calculator]: goal_distance=1.396m goal_angle=0.064rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780474135.097895359] [goal_relative_calculator]: goal_distance=1.239m goal_angle=-0.062rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780474138.097962052] [goal_relative_calculator]: goal_distance=1.040m goal_angle=-0.212rad pose_source=tf
+[center_route_requester_node-3] [INFO] [1780474138.564447047] [center_route_requester]: Published center route with 100 poses.
+[goal_relative_calculator-8] [INFO] [1780474141.096944344] [goal_relative_calculator]: goal_distance=0.844m goal_angle=-0.204rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780474144.097794395] [goal_relative_calculator]: goal_distance=0.658m goal_angle=-0.154rad pose_source=tf
+[center_route_requester_node-3] [INFO] [1780474145.559220416] [center_route_requester]: Published center route with 57 poses.
+[goal_relative_calculator-8] [INFO] [1780474147.098007212] [goal_relative_calculator]: goal_distance=0.484m goal_angle=0.023rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780474150.097580437] [goal_relative_calculator]: goal_distance=0.308m goal_angle=0.201rad pose_source=tf
+[center_route_requester_node-3] [INFO] [1780474152.561073418] [center_route_requester]: Published center route with 19 poses.
+[goal_relative_calculator-8] [INFO] [1780474153.096540290] [goal_relative_calculator]: goal_distance=0.174m goal_angle=0.239rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780474156.097834671] [goal_relative_calculator]: goal_distance=0.121m goal_angle=0.239rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780474159.097674819] [goal_relative_calculator]: goal_distance=0.121m goal_angle=0.239rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780474162.098710102] [goal_relative_calculator]: goal_distance=0.121m goal_angle=0.239rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780474165.097818585] [goal_relative_calculator]: goal_distance=0.121m goal_angle=0.239rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780474168.098523474] [goal_relative_calculator]: goal_distance=0.121m goal_angle=0.239rad pose_source=tf

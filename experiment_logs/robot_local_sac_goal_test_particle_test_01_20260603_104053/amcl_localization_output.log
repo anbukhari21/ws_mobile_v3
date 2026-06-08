@@ -1,0 +1,119 @@
+[INFO] [launch]: All log files can be found below /home/abdulrhman/.ros/log/2026-06-03-10-40-57-317700-JTS-8333
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [launch.user]: [PATH V2 AMCL] localization only: map_server + amcl + lifecycle. No planner_server, bt_navigator, waypoint_follower, PRE_ALIGN, or Stage0 yaw nodes. Global AMCL autorotate helper is available through auto_global_localization/auto_rotate args.
+[INFO] [robot_state_publisher-1]: process started with pid [8336]
+[INFO] [map_server-2]: process started with pid [8338]
+[INFO] [amcl-3]: process started with pid [8340]
+[INFO] [lifecycle_manager-4]: process started with pid [8342]
+[INFO] [global_amcl_autorotate_node-5]: process started with pid [8344]
+[lifecycle_manager-4] [INFO] [1780472457.610209953] [lifecycle_manager_sac_localization]: Creating
+[lifecycle_manager-4] [INFO] [1780472457.613684157] [lifecycle_manager_sac_localization]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[robot_state_publisher-1] [INFO] [1780472457.614508492] [robot_state_publisher]: got segment base_footprint
+[robot_state_publisher-1] [INFO] [1780472457.615110518] [robot_state_publisher]: got segment body_link
+[robot_state_publisher-1] [INFO] [1780472457.615160311] [robot_state_publisher]: got segment camera_link
+[robot_state_publisher-1] [INFO] [1780472457.615179127] [robot_state_publisher]: got segment camera_link_optical
+[robot_state_publisher-1] [INFO] [1780472457.615191224] [robot_state_publisher]: got segment lidar_link
+[robot_state_publisher-1] [INFO] [1780472457.615201592] [robot_state_publisher]: got segment wheel1_link
+[robot_state_publisher-1] [INFO] [1780472457.615211192] [robot_state_publisher]: got segment wheel2_link
+[robot_state_publisher-1] [INFO] [1780472457.615220504] [robot_state_publisher]: got segment wheel3_link
+[robot_state_publisher-1] [INFO] [1780472457.615229944] [robot_state_publisher]: got segment wheel4_link
+[amcl-3] [INFO] [1780472457.621891949] [amcl]: 
+[amcl-3] 	amcl lifecycle node launched. 
+[amcl-3] 	Waiting on external lifecycle transitions to activate
+[amcl-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[amcl-3] [INFO] [1780472457.622880798] [amcl]: Creating
+[map_server-2] [INFO] [1780472457.630617093] [map_server]: 
+[map_server-2] 	map_server lifecycle node launched. 
+[map_server-2] 	Waiting on external lifecycle transitions to activate
+[map_server-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_server-2] [INFO] [1780472457.630932362] [map_server]: Creating
+[global_amcl_autorotate_node-5] [INFO] [1780472458.190273235] [global_amcl_autorotate_node]: Global AMCL autorotate helper ready: cmd_vel_topic=/cmd_vel start_delay=3.0s
+[lifecycle_manager-4] [INFO] [1780472458.585229988] [lifecycle_manager_sac_localization]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-4] [INFO] [1780472458.585461672] [lifecycle_manager_sac_localization]: [34m[1mConfiguring map_server[0m[0m
+[map_server-2] [INFO] [1780472458.586286231] [map_server]: Configuring
+[map_server-2] [INFO] [1780472458.586506139] [map_io]: Loading yaml file: /home/abdulrhman/maps/real_robot_sac_map_20260603_101307.yaml
+[map_server-2] [INFO] [1780472458.587528365] [map_io]: resolution: 0.02
+[map_server-2] [INFO] [1780472458.587558637] [map_io]: origin[0]: -2.41
+[map_server-2] [INFO] [1780472458.587568205] [map_io]: origin[1]: -2.01
+[map_server-2] [INFO] [1780472458.587575981] [map_io]: origin[2]: 0
+[map_server-2] [INFO] [1780472458.587583565] [map_io]: free_thresh: 0.25
+[map_server-2] [INFO] [1780472458.587590766] [map_io]: occupied_thresh: 0.65
+[map_server-2] [INFO] [1780472458.587599950] [map_io]: mode: trinary
+[map_server-2] [INFO] [1780472458.587610350] [map_io]: negate: 0
+[map_server-2] [INFO] [1780472458.587989941] [map_io]: Loading image_file: /home/abdulrhman/maps/real_robot_sac_map_20260603_101307.pgm
+[map_server-2] [INFO] [1780472458.599798019] [map_io]: Read map /home/abdulrhman/maps/real_robot_sac_map_20260603_101307.pgm: 236 X 216 map @ 0.02 m/cell
+[lifecycle_manager-4] [INFO] [1780472458.629982450] [lifecycle_manager_sac_localization]: [34m[1mConfiguring amcl[0m[0m
+[amcl-3] [INFO] [1780472458.630488859] [amcl]: Configuring
+[amcl-3] [INFO] [1780472458.630694942] [amcl]: initTransforms
+[amcl-3] [INFO] [1780472458.649493671] [amcl]: initPubSub
+[amcl-3] [INFO] [1780472458.658055612] [amcl]: Subscribed to map topic.
+[lifecycle_manager-4] [INFO] [1780472458.663990308] [lifecycle_manager_sac_localization]: [34m[1mActivating map_server[0m[0m
+[map_server-2] [INFO] [1780472458.664380811] [map_server]: Activating
+[map_server-2] [INFO] [1780472458.664803826] [map_server]: Creating bond (map_server) to lifecycle manager.
+[amcl-3] [INFO] [1780472458.665085239] [amcl]: Received a 236 X 216 map @ 0.020 m/pix
+[lifecycle_manager-4] [INFO] [1780472458.774780243] [lifecycle_manager_sac_localization]: Server map_server connected with bond.
+[lifecycle_manager-4] [INFO] [1780472458.774911957] [lifecycle_manager_sac_localization]: [34m[1mActivating amcl[0m[0m
+[amcl-3] [INFO] [1780472458.775473727] [amcl]: Activating
+[amcl-3] [INFO] [1780472458.775581889] [amcl]: Creating bond (amcl) to lifecycle manager.
+[amcl-3] [INFO] [1780472458.867611048] [amcl]: createLaserObject
+[lifecycle_manager-4] [INFO] [1780472458.885411071] [lifecycle_manager_sac_localization]: Server amcl connected with bond.
+[lifecycle_manager-4] [INFO] [1780472458.885540161] [lifecycle_manager_sac_localization]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-4] [INFO] [1780472458.885582722] [lifecycle_manager_sac_localization]: [34m[1mCreating bond timer...[0m[0m
+[amcl-3] [INFO] [1780472459.663942972] [amcl]: Message Filter dropping message: frame 'laser' at time 1780472458.570 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-3] [WARN] [1780472460.666194109] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[global_amcl_autorotate_node-5] [INFO] [1780472461.158312497] [global_amcl_autorotate_node]: Waiting for /reinitialize_global_localization for up to 30.0s...
+[amcl-3] [INFO] [1780472461.159061502] [amcl]: Initializing with uniform distribution
+[amcl-3] [INFO] [1780472461.174044900] [amcl]: Global initialisation done!
+[global_amcl_autorotate_node-5] [INFO] [1780472461.176725523] [global_amcl_autorotate_node]: Called /reinitialize_global_localization.
+[global_amcl_autorotate_node-5] [WARN] [1780472461.177675363] [global_amcl_autorotate_node]: Auto-rotating slowly for AMCL convergence: speed=0.20 rad/s duration=31.5s
+[global_amcl_autorotate_node-5] [INFO] [1780472492.730893163] [global_amcl_autorotate_node]: Auto-rotation complete; published zero velocity.
+[amcl-3] [INFO] [1780472562.874269551] [amcl]: Requesting no-motion update
+[amcl-3] [INFO] [1780472565.960898226] [amcl]: Requesting no-motion update
+[amcl-3] [INFO] [1780472569.059224039] [amcl]: Requesting no-motion update
+[amcl-3] [INFO] [1780472572.134723346] [amcl]: Requesting no-motion update
+[amcl-3] [INFO] [1780472575.209524886] [amcl]: Requesting no-motion update
+[amcl-3] [INFO] [1780472584.061418071] [amcl]: Requesting no-motion update
+[amcl-3] [INFO] [1780472587.076487831] [amcl]: Requesting no-motion update
+[amcl-3] [INFO] [1780472590.294224866] [amcl]: Requesting no-motion update
+[amcl-3] [INFO] [1780472592.996227251] [amcl]: Requesting no-motion update
+[amcl-3] [INFO] [1780472593.739882996] [amcl]: Requesting no-motion update
+[robot_state_publisher-1] [INFO] [1780472842.725256332] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[amcl-3] [INFO] [1780472842.725293965] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[amcl-3] [INFO] [1780472842.725501136] [amcl]: Running Nav2 LifecycleNode rcl preshutdown (amcl)
+[amcl-3] [INFO] [1780472842.725687988] [amcl]: Deactivating
+[amcl-3] [INFO] [1780472842.725759925] [amcl]: Destroying bond (amcl) to lifecycle manager.
+[lifecycle_manager-4] [INFO] [1780472842.726144540] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[lifecycle_manager-4] [INFO] [1780472842.726341695] [lifecycle_manager_sac_localization]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_manager_sac_localization)
+[lifecycle_manager-4] [INFO] [1780472842.727284592] [lifecycle_manager_sac_localization]: [34m[1mTerminating bond timer...[0m[0m
+[map_server-2] [INFO] [1780472842.728676392] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[map_server-2] [INFO] [1780472842.728881868] [map_server]: Running Nav2 LifecycleNode rcl preshutdown (map_server)
+[map_server-2] [INFO] [1780472842.729071471] [map_server]: Deactivating
+[map_server-2] [INFO] [1780472842.729130672] [map_server]: Destroying bond (map_server) to lifecycle manager.
+[map_server-2] [INFO] [1780472842.772697105] [map_server]: Cleaning up
+[map_server-2] [INFO] [1780472842.772942517] [map_server]: Destroying bond (map_server) to lifecycle manager.
+[amcl-3] [INFO] [1780472842.796347730] [amcl]: Cleaning up
+[map_server-2] [INFO] [1780472842.855644297] [map_server]: Destroying
+[lifecycle_manager-4] [INFO] [1780472842.861259724] [lifecycle_manager_sac_localization]: Destroying lifecycle_manager_sac_localization
+[amcl-3] [INFO] [1780472842.944602474] [amcl]: Destroying bond (amcl) to lifecycle manager.
+[amcl-3] [INFO] [1780472842.976268633] [amcl]: Destroying
+[INFO] [robot_state_publisher-1]: process has finished cleanly [pid 8336]
+[INFO] [map_server-2]: process has finished cleanly [pid 8338]
+[INFO] [lifecycle_manager-4]: process has finished cleanly [pid 8342]
+[INFO] [amcl-3]: process has finished cleanly [pid 8340]
+[global_amcl_autorotate_node-5] Traceback (most recent call last):
+[global_amcl_autorotate_node-5]   File "/home/abdulrhman/ws_mobile_v2/install/mobile_robot/lib/mobile_robot/global_amcl_autorotate_node", line 124, in <module>
+[global_amcl_autorotate_node-5]     main()
+[global_amcl_autorotate_node-5]   File "/home/abdulrhman/ws_mobile_v2/install/mobile_robot/lib/mobile_robot/global_amcl_autorotate_node", line 114, in main
+[global_amcl_autorotate_node-5]     rclpy.spin(node)
+[global_amcl_autorotate_node-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+[global_amcl_autorotate_node-5]     executor.spin_once()
+[global_amcl_autorotate_node-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 808, in spin_once
+[global_amcl_autorotate_node-5]     self._spin_once_impl(timeout_sec)
+[global_amcl_autorotate_node-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 797, in _spin_once_impl
+[global_amcl_autorotate_node-5]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+[global_amcl_autorotate_node-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 780, in wait_for_ready_callbacks
+[global_amcl_autorotate_node-5]     return next(self._cb_iter)
+[global_amcl_autorotate_node-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 681, in _wait_for_ready_callbacks
+[global_amcl_autorotate_node-5]     raise ExternalShutdownException()
+[global_amcl_autorotate_node-5] rclpy.executors.ExternalShutdownException
+[ERROR] [global_amcl_autorotate_node-5]: process has died [pid 8344, exit code 1, cmd '/home/abdulrhman/ws_mobile_v2/install/mobile_robot/lib/mobile_robot/global_amcl_autorotate_node --ros-args -r __node:=global_amcl_autorotate_node --params-file /tmp/launch_params_f99z2c3s'].

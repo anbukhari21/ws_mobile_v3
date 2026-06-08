@@ -1,0 +1,30 @@
+metric,value
+log_file_used,/home/abdulrhman/ws_mobile_v2/experiment_logs/robot_local_sac_goal_test_robot_local_01_20260603_092457/robot_action_log.csv
+test_start_time,1780467904.636 (2026-06-03T09:25:04.635633)
+test_end_time,1780468174.085 (2026-06-03T09:29:34.085151)
+total_duration_sec,269.4495179653168
+total_number_of_steps,3098
+average_control_frequency_hz,11.493804195257987
+start_position,"(-1.554, -2.123)"
+goal_position,"(0.000, 0.000)"
+final_position,"(-2.079, -3.129)"
+final_distance_to_goal,0.130575866
+minimum_distance_to_goal,0.130575866
+path_length_from_odometry,1.4236762507801706
+average_commanded_linear_velocity,0.011735430449322163
+average_commanded_angular_velocity_abs,0.08591098961975503
+maximum_commanded_linear_velocity_abs,0.119949303
+maximum_commanded_angular_velocity_abs,0.3
+minimum_lidar_range,0.340000004
+number_of_collision_flags,0
+success_or_failure,SUCCESS
+success_radius,0.22
+cmd_vel_had_nonzero_commands,True
+odom_changed_consistently_with_commands,True
+lidar_data_was_received,True
+expected_control_source,sac_autonomy
+control_source_matches_expected,True
+route_system_expected,True
+control_sources_seen,sac_autonomy
+ros_graph_snapshot,missing
+warnings,Control frequency is irregular; inspect dropped messages or pauses. | ROS graph snapshot was not found; record it for stronger autonomy evidence.

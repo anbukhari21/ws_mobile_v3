@@ -1,0 +1,147 @@
+[INFO] [launch]: All log files can be found below /home/abdulrhman/.ros/log/2026-06-03-10-21-57-298585-JTS-6337
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [launch.user]: [PATH V2 AMCL] localization only: map_server + amcl + lifecycle. No planner_server, bt_navigator, waypoint_follower, PRE_ALIGN, or Stage0 yaw nodes. Global AMCL autorotate helper is available through auto_global_localization/auto_rotate args.
+[INFO] [robot_state_publisher-1]: process started with pid [6340]
+[INFO] [map_server-2]: process started with pid [6342]
+[INFO] [amcl-3]: process started with pid [6344]
+[INFO] [lifecycle_manager-4]: process started with pid [6346]
+[INFO] [global_amcl_autorotate_node-5]: process started with pid [6348]
+[robot_state_publisher-1] [INFO] [1780471317.588491196] [robot_state_publisher]: got segment base_footprint
+[robot_state_publisher-1] [INFO] [1780471317.588827267] [robot_state_publisher]: got segment body_link
+[robot_state_publisher-1] [INFO] [1780471317.588864483] [robot_state_publisher]: got segment camera_link
+[robot_state_publisher-1] [INFO] [1780471317.588882180] [robot_state_publisher]: got segment camera_link_optical
+[robot_state_publisher-1] [INFO] [1780471317.588896100] [robot_state_publisher]: got segment lidar_link
+[robot_state_publisher-1] [INFO] [1780471317.588907908] [robot_state_publisher]: got segment wheel1_link
+[robot_state_publisher-1] [INFO] [1780471317.588918213] [robot_state_publisher]: got segment wheel2_link
+[robot_state_publisher-1] [INFO] [1780471317.588927973] [robot_state_publisher]: got segment wheel3_link
+[robot_state_publisher-1] [INFO] [1780471317.588937605] [robot_state_publisher]: got segment wheel4_link
+[lifecycle_manager-4] [INFO] [1780471317.593745962] [lifecycle_manager_sac_localization]: Creating
+[lifecycle_manager-4] [INFO] [1780471317.598484269] [lifecycle_manager_sac_localization]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[map_server-2] [INFO] [1780471317.613355237] [map_server]: 
+[map_server-2] 	map_server lifecycle node launched. 
+[map_server-2] 	Waiting on external lifecycle transitions to activate
+[map_server-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_server-2] [INFO] [1780471317.613746349] [map_server]: Creating
+[amcl-3] [INFO] [1780471317.622713481] [amcl]: 
+[amcl-3] 	amcl lifecycle node launched. 
+[amcl-3] 	Waiting on external lifecycle transitions to activate
+[amcl-3] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[amcl-3] [INFO] [1780471317.623709150] [amcl]: Creating
+[global_amcl_autorotate_node-5] [INFO] [1780471318.171171918] [global_amcl_autorotate_node]: Global AMCL autorotate helper ready: cmd_vel_topic=/cmd_vel start_delay=3.0s
+[lifecycle_manager-4] [INFO] [1780471318.572012059] [lifecycle_manager_sac_localization]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-4] [INFO] [1780471318.573604541] [lifecycle_manager_sac_localization]: [34m[1mConfiguring map_server[0m[0m
+[map_server-2] [INFO] [1780471318.575555718] [map_server]: Configuring
+[map_server-2] [INFO] [1780471318.575722889] [map_io]: Loading yaml file: /home/abdulrhman/maps/real_robot_sac_map_20260603_101307.yaml
+[map_server-2] [INFO] [1780471318.576378679] [map_io]: resolution: 0.02
+[map_server-2] [INFO] [1780471318.576411320] [map_io]: origin[0]: -2.41
+[map_server-2] [INFO] [1780471318.576422840] [map_io]: origin[1]: -2.01
+[map_server-2] [INFO] [1780471318.576431352] [map_io]: origin[2]: 0
+[map_server-2] [INFO] [1780471318.576439576] [map_io]: free_thresh: 0.25
+[map_server-2] [INFO] [1780471318.576447128] [map_io]: occupied_thresh: 0.65
+[map_server-2] [INFO] [1780471318.576456696] [map_io]: mode: trinary
+[map_server-2] [INFO] [1780471318.576467673] [map_io]: negate: 0
+[map_server-2] [INFO] [1780471318.576881441] [map_io]: Loading image_file: /home/abdulrhman/maps/real_robot_sac_map_20260603_101307.pgm
+[map_server-2] [INFO] [1780471318.590749636] [map_io]: Read map /home/abdulrhman/maps/real_robot_sac_map_20260603_101307.pgm: 236 X 216 map @ 0.02 m/cell
+[lifecycle_manager-4] [INFO] [1780471318.604108828] [lifecycle_manager_sac_localization]: [34m[1mConfiguring amcl[0m[0m
+[amcl-3] [INFO] [1780471318.769359394] [amcl]: Configuring
+[amcl-3] [INFO] [1780471318.769616647] [amcl]: initTransforms
+[amcl-3] [INFO] [1780471318.787413340] [amcl]: initPubSub
+[amcl-3] [INFO] [1780471318.796752671] [amcl]: Subscribed to map topic.
+[amcl-3] [WARN] [1780471318.802864799] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[lifecycle_manager-4] [INFO] [1780471318.803327081] [lifecycle_manager_sac_localization]: [34m[1mActivating map_server[0m[0m
+[map_server-2] [INFO] [1780471318.803706897] [map_server]: Activating
+[map_server-2] [INFO] [1780471318.804653861] [map_server]: Creating bond (map_server) to lifecycle manager.
+[amcl-3] [INFO] [1780471319.156869014] [amcl]: Received a 236 X 216 map @ 0.020 m/pix
+[lifecycle_manager-4] [INFO] [1780471319.163294364] [lifecycle_manager_sac_localization]: Server map_server connected with bond.
+[lifecycle_manager-4] [INFO] [1780471319.163439615] [lifecycle_manager_sac_localization]: [34m[1mActivating amcl[0m[0m
+[amcl-3] [INFO] [1780471319.164046348] [amcl]: Activating
+[amcl-3] [INFO] [1780471319.164149102] [amcl]: Creating bond (amcl) to lifecycle manager.
+[amcl-3] [INFO] [1780471319.265363190] [amcl]: createLaserObject
+[lifecycle_manager-4] [INFO] [1780471319.277375089] [lifecycle_manager_sac_localization]: Server amcl connected with bond.
+[lifecycle_manager-4] [INFO] [1780471319.277539925] [lifecycle_manager_sac_localization]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-4] [INFO] [1780471319.277584437] [lifecycle_manager_sac_localization]: [34m[1mCreating bond timer...[0m[0m
+[amcl-3] [INFO] [1780471319.959924197] [amcl]: Message Filter dropping message: frame 'laser' at time 1780471318.865 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-3] [WARN] [1780471320.859812119] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[global_amcl_autorotate_node-5] [INFO] [1780471321.140502824] [global_amcl_autorotate_node]: Waiting for /reinitialize_global_localization for up to 30.0s...
+[amcl-3] [INFO] [1780471321.141242103] [amcl]: Initializing with uniform distribution
+[amcl-3] [INFO] [1780471321.156371252] [amcl]: Global initialisation done!
+[global_amcl_autorotate_node-5] [INFO] [1780471321.158420959] [global_amcl_autorotate_node]: Called /reinitialize_global_localization.
+[global_amcl_autorotate_node-5] [WARN] [1780471321.159405107] [global_amcl_autorotate_node]: Auto-rotating slowly for AMCL convergence: speed=0.20 rad/s duration=31.5s
+[amcl-3] [WARN] [1780471327.534749045] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471328.334529758] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471328.551586956] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471328.743978839] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471334.495417093] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471334.735638217] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471336.553975436] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471336.761213950] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471336.983438248] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471337.170755962] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471337.392399414] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471337.619257533] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471338.074466187] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471338.262321351] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471338.473724620] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471338.662772321] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471338.857356681] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471339.053307436] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471343.103846543] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471343.303088174] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471343.467683553] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471343.637167000] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471343.812650636] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471344.002740398] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471344.177341774] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471344.358361459] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471344.531643735] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471344.705079167] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471344.875342597] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471345.056246919] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471345.244668964] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471345.449465908] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471345.648596622] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471345.843761654] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471346.039356199] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471346.238965770] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471346.448676125] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471346.701591951] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471347.219793937] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471348.011642380] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[global_amcl_autorotate_node-5] [INFO] [1780471352.719798349] [global_amcl_autorotate_node]: Auto-rotation complete; published zero velocity.
+[amcl-3] [WARN] [1780471372.075215864] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471372.269830286] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471372.436427141] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471372.607928129] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471372.951179551] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471373.129881485] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471373.334803253] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471373.510835053] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471373.675354169] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471373.850055125] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471374.024050211] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471374.212827327] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471374.385925305] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471374.550805195] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471374.735149996] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471374.909840935] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471375.088763673] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471375.249740378] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471378.304206201] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471381.542299524] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471383.117185596] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471421.008959520] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [INFO] [1780471422.975895866] [amcl]: Requesting no-motion update
+[amcl-3] [INFO] [1780471426.080064271] [amcl]: Requesting no-motion update
+[amcl-3] [WARN] [1780471426.878152625] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [INFO] [1780471429.196951951] [amcl]: Requesting no-motion update
+[amcl-3] [INFO] [1780471432.312361105] [amcl]: Requesting no-motion update
+[amcl-3] [INFO] [1780471435.422299163] [amcl]: Requesting no-motion update
+[amcl-3] [INFO] [1780471444.204986131] [amcl]: Requesting no-motion update
+[amcl-3] [INFO] [1780471447.284868947] [amcl]: Requesting no-motion update
+[amcl-3] [INFO] [1780471450.426781146] [amcl]: Requesting no-motion update
+[amcl-3] [INFO] [1780471452.458913708] [amcl]: Requesting no-motion update
+[amcl-3] [WARN] [1780471566.838702262] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471573.359445199] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471823.940897145] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471826.178931252] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY
+[amcl-3] [WARN] [1780471828.151375127] [amcl]: New subscription discovered on topic '/particle_cloud', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY_QOS_POLICY

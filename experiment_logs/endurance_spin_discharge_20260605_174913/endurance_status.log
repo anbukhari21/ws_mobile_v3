@@ -1,0 +1,1100 @@
+
+=== STATUS 2026-06-05T17:49:18+03:00 ===
+--- services active ---
+fastdds-discovery.service active
+robot-laser-tf.service active
+rplidar.service active
+yahboom-base.service active
+--- nodes ---
+WARNING: Be aware that there are nodes in the graph that share an exact name, which can have unintended side effects.
+/rplidar_node
+/sac_joint_state_publisher
+/sac_joint_state_publisher
+/sac_robot_state_publisher
+/sac_robot_state_publisher
+/sac_rviz
+/static_transform_publisher_5ZJQzV0MemZrS6KX
+/transform_listener_impl_5cc2fb8a4c90
+/yahboom_base_node
+--- topics ---
+/clicked_point
+/cmd_vel
+/goal_pose
+/joint_states
+/map
+/map_updates
+/odom
+/parameter_events
+/particle_cloud
+/robot_description
+/rosout
+/scan
+/tf
+/tf_static
+--- /cmd_vel info ---
+Type: geometry_msgs/msg/Twist
+
+Publisher count: 1
+
+Node name: _ros2cli_4864
+Node namespace: /
+Topic type: geometry_msgs/msg/Twist
+Endpoint type: PUBLISHER
+GID: 01.0f.e7.ee.00.13.bc.1d.00.00.00.00.00.00.05.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: TRANSIENT_LOCAL
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 1
+
+Node name: yahboom_base_node
+Node namespace: /
+Topic type: geometry_msgs/msg/Twist
+Endpoint type: SUBSCRIPTION
+GID: 01.0f.e7.ee.91.08.2f.af.00.00.00.00.00.00.11.04.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+--- /scan info ---
+Type: sensor_msgs/msg/LaserScan
+
+Publisher count: 1
+
+Node name: rplidar_node
+Node namespace: /
+Topic type: sensor_msgs/msg/LaserScan
+Endpoint type: PUBLISHER
+GID: 01.0f.e7.ee.04.09.d8.49.00.00.00.00.00.00.12.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 0
+
+--- /odom info ---
+Type: nav_msgs/msg/Odometry
+
+Publisher count: 1
+
+Node name: yahboom_base_node
+Node namespace: /
+Topic type: nav_msgs/msg/Odometry
+Endpoint type: PUBLISHER
+GID: 01.0f.e7.ee.91.08.2f.af.00.00.00.00.00.00.12.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 0
+
+
+=== STATUS 2026-06-05T17:50:22+03:00 ===
+--- services active ---
+fastdds-discovery.service active
+robot-laser-tf.service active
+rplidar.service active
+yahboom-base.service active
+--- nodes ---
+WARNING: Be aware that there are nodes in the graph that share an exact name, which can have unintended side effects.
+/rplidar_node
+/sac_joint_state_publisher
+/sac_joint_state_publisher
+/sac_robot_state_publisher
+/sac_robot_state_publisher
+/sac_rviz
+/static_transform_publisher_5ZJQzV0MemZrS6KX
+/transform_listener_impl_59c603741030
+/yahboom_base_node
+--- topics ---
+/clicked_point
+/cmd_vel
+/goal_pose
+/joint_states
+/map
+/map_updates
+/odom
+/parameter_events
+/particle_cloud
+/robot_description
+/rosout
+/scan
+/tf
+/tf_static
+--- /cmd_vel info ---
+Type: geometry_msgs/msg/Twist
+
+Publisher count: 1
+
+Node name: _ros2cli_4864
+Node namespace: /
+Topic type: geometry_msgs/msg/Twist
+Endpoint type: PUBLISHER
+GID: 01.0f.e7.ee.00.13.bc.1d.00.00.00.00.00.00.05.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: TRANSIENT_LOCAL
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 1
+
+Node name: yahboom_base_node
+Node namespace: /
+Topic type: geometry_msgs/msg/Twist
+Endpoint type: SUBSCRIPTION
+GID: 01.0f.e7.ee.91.08.2f.af.00.00.00.00.00.00.11.04.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+--- /scan info ---
+Type: sensor_msgs/msg/LaserScan
+
+Publisher count: 1
+
+Node name: rplidar_node
+Node namespace: /
+Topic type: sensor_msgs/msg/LaserScan
+Endpoint type: PUBLISHER
+GID: 01.0f.e7.ee.04.09.d8.49.00.00.00.00.00.00.12.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 0
+
+--- /odom info ---
+Type: nav_msgs/msg/Odometry
+
+Publisher count: 1
+
+Node name: yahboom_base_node
+Node namespace: /
+Topic type: nav_msgs/msg/Odometry
+Endpoint type: PUBLISHER
+GID: 01.0f.e7.ee.91.08.2f.af.00.00.00.00.00.00.12.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 0
+
+
+=== STATUS 2026-06-05T17:51:27+03:00 ===
+--- services active ---
+fastdds-discovery.service active
+robot-laser-tf.service active
+rplidar.service active
+yahboom-base.service active
+--- nodes ---
+WARNING: Be aware that there are nodes in the graph that share an exact name, which can have unintended side effects.
+/rplidar_node
+/sac_joint_state_publisher
+/sac_joint_state_publisher
+/sac_robot_state_publisher
+/sac_robot_state_publisher
+/sac_rviz
+/static_transform_publisher_5ZJQzV0MemZrS6KX
+/transform_listener_impl_59c603741030
+/yahboom_base_node
+--- topics ---
+/clicked_point
+/cmd_vel
+/goal_pose
+/joint_states
+/map
+/map_updates
+/odom
+/parameter_events
+/particle_cloud
+/robot_description
+/rosout
+/scan
+/tf
+/tf_static
+--- /cmd_vel info ---
+Type: geometry_msgs/msg/Twist
+
+Publisher count: 1
+
+Node name: _ros2cli_4864
+Node namespace: /
+Topic type: geometry_msgs/msg/Twist
+Endpoint type: PUBLISHER
+GID: 01.0f.e7.ee.00.13.bc.1d.00.00.00.00.00.00.05.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: TRANSIENT_LOCAL
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 1
+
+Node name: yahboom_base_node
+Node namespace: /
+Topic type: geometry_msgs/msg/Twist
+Endpoint type: SUBSCRIPTION
+GID: 01.0f.e7.ee.91.08.2f.af.00.00.00.00.00.00.11.04.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+--- /scan info ---
+Type: sensor_msgs/msg/LaserScan
+
+Publisher count: 1
+
+Node name: rplidar_node
+Node namespace: /
+Topic type: sensor_msgs/msg/LaserScan
+Endpoint type: PUBLISHER
+GID: 01.0f.e7.ee.04.09.d8.49.00.00.00.00.00.00.12.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 0
+
+--- /odom info ---
+Type: nav_msgs/msg/Odometry
+
+Publisher count: 1
+
+Node name: yahboom_base_node
+Node namespace: /
+Topic type: nav_msgs/msg/Odometry
+Endpoint type: PUBLISHER
+GID: 01.0f.e7.ee.91.08.2f.af.00.00.00.00.00.00.12.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 0
+
+
+=== STATUS 2026-06-05T17:52:31+03:00 ===
+--- services active ---
+fastdds-discovery.service active
+robot-laser-tf.service active
+rplidar.service active
+yahboom-base.service active
+--- nodes ---
+WARNING: Be aware that there are nodes in the graph that share an exact name, which can have unintended side effects.
+/rplidar_node
+/sac_joint_state_publisher
+/sac_joint_state_publisher
+/sac_robot_state_publisher
+/sac_robot_state_publisher
+/sac_rviz
+/static_transform_publisher_5ZJQzV0MemZrS6KX
+/transform_listener_impl_59c603741030
+/yahboom_base_node
+--- topics ---
+/clicked_point
+/cmd_vel
+/goal_pose
+/joint_states
+/map
+/map_updates
+/odom
+/parameter_events
+/particle_cloud
+/robot_description
+/rosout
+/scan
+/tf
+/tf_static
+--- /cmd_vel info ---
+Type: geometry_msgs/msg/Twist
+
+Publisher count: 1
+
+Node name: _ros2cli_4864
+Node namespace: /
+Topic type: geometry_msgs/msg/Twist
+Endpoint type: PUBLISHER
+GID: 01.0f.e7.ee.00.13.bc.1d.00.00.00.00.00.00.05.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: TRANSIENT_LOCAL
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 1
+
+Node name: yahboom_base_node
+Node namespace: /
+Topic type: geometry_msgs/msg/Twist
+Endpoint type: SUBSCRIPTION
+GID: 01.0f.e7.ee.91.08.2f.af.00.00.00.00.00.00.11.04.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+--- /scan info ---
+Type: sensor_msgs/msg/LaserScan
+
+Publisher count: 1
+
+Node name: rplidar_node
+Node namespace: /
+Topic type: sensor_msgs/msg/LaserScan
+Endpoint type: PUBLISHER
+GID: 01.0f.e7.ee.04.09.d8.49.00.00.00.00.00.00.12.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 0
+
+--- /odom info ---
+Type: nav_msgs/msg/Odometry
+
+Publisher count: 1
+
+Node name: yahboom_base_node
+Node namespace: /
+Topic type: nav_msgs/msg/Odometry
+Endpoint type: PUBLISHER
+GID: 01.0f.e7.ee.91.08.2f.af.00.00.00.00.00.00.12.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 0
+
+
+=== STATUS 2026-06-05T17:53:35+03:00 ===
+--- services active ---
+fastdds-discovery.service active
+robot-laser-tf.service active
+rplidar.service active
+yahboom-base.service active
+--- nodes ---
+/rplidar_node
+/sac_joint_state_publisher
+/sac_robot_state_publisher
+/sac_rviz
+/static_transform_publisher_5ZJQzV0MemZrS6KX
+/transform_listener_impl_62e61b6b85b0
+/yahboom_base_node
+--- topics ---
+/clicked_point
+/cmd_vel
+/goal_pose
+/joint_states
+/odom
+/parameter_events
+/robot_description
+/rosout
+/scan
+/tf
+/tf_static
+--- /cmd_vel info ---
+Type: geometry_msgs/msg/Twist
+
+Publisher count: 1
+
+Node name: _ros2cli_4864
+Node namespace: /
+Topic type: geometry_msgs/msg/Twist
+Endpoint type: PUBLISHER
+GID: 01.0f.e7.ee.00.13.bc.1d.00.00.00.00.00.00.05.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: TRANSIENT_LOCAL
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 1
+
+Node name: yahboom_base_node
+Node namespace: /
+Topic type: geometry_msgs/msg/Twist
+Endpoint type: SUBSCRIPTION
+GID: 01.0f.e7.ee.91.08.2f.af.00.00.00.00.00.00.11.04.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+--- /scan info ---
+Type: sensor_msgs/msg/LaserScan
+
+Publisher count: 1
+
+Node name: rplidar_node
+Node namespace: /
+Topic type: sensor_msgs/msg/LaserScan
+Endpoint type: PUBLISHER
+GID: 01.0f.e7.ee.04.09.d8.49.00.00.00.00.00.00.12.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 1
+
+Node name: sac_rviz
+Node namespace: /
+Topic type: sensor_msgs/msg/LaserScan
+Endpoint type: SUBSCRIPTION
+GID: 01.0f.ae.cf.06.f6.5f.1b.00.00.00.00.00.00.26.04.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: BEST_EFFORT
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+--- /odom info ---
+Type: nav_msgs/msg/Odometry
+
+Publisher count: 1
+
+Node name: yahboom_base_node
+Node namespace: /
+Topic type: nav_msgs/msg/Odometry
+Endpoint type: PUBLISHER
+GID: 01.0f.e7.ee.91.08.2f.af.00.00.00.00.00.00.12.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 1
+
+Node name: sac_rviz
+Node namespace: /
+Topic type: nav_msgs/msg/Odometry
+Endpoint type: SUBSCRIPTION
+GID: 01.0f.ae.cf.06.f6.5f.1b.00.00.00.00.00.00.25.04.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+
+=== STATUS 2026-06-05T17:54:39+03:00 ===
+--- services active ---
+fastdds-discovery.service active
+robot-laser-tf.service active
+rplidar.service active
+yahboom-base.service active
+--- nodes ---
+/rplidar_node
+/sac_joint_state_publisher
+/sac_robot_state_publisher
+/sac_rviz
+/static_transform_publisher_5ZJQzV0MemZrS6KX
+/transform_listener_impl_62e61b6b85b0
+/yahboom_base_node
+--- topics ---
+/clicked_point
+/cmd_vel
+/goal_pose
+/joint_states
+/odom
+/parameter_events
+/robot_description
+/rosout
+/scan
+/tf
+/tf_static
+--- /cmd_vel info ---
+Type: geometry_msgs/msg/Twist
+
+Publisher count: 1
+
+Node name: _ros2cli_4864
+Node namespace: /
+Topic type: geometry_msgs/msg/Twist
+Endpoint type: PUBLISHER
+GID: 01.0f.e7.ee.00.13.bc.1d.00.00.00.00.00.00.05.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: TRANSIENT_LOCAL
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 1
+
+Node name: yahboom_base_node
+Node namespace: /
+Topic type: geometry_msgs/msg/Twist
+Endpoint type: SUBSCRIPTION
+GID: 01.0f.e7.ee.91.08.2f.af.00.00.00.00.00.00.11.04.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+--- /scan info ---
+Type: sensor_msgs/msg/LaserScan
+
+Publisher count: 1
+
+Node name: rplidar_node
+Node namespace: /
+Topic type: sensor_msgs/msg/LaserScan
+Endpoint type: PUBLISHER
+GID: 01.0f.e7.ee.04.09.d8.49.00.00.00.00.00.00.12.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 1
+
+Node name: sac_rviz
+Node namespace: /
+Topic type: sensor_msgs/msg/LaserScan
+Endpoint type: SUBSCRIPTION
+GID: 01.0f.ae.cf.06.f6.5f.1b.00.00.00.00.00.00.26.04.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: BEST_EFFORT
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+--- /odom info ---
+Type: nav_msgs/msg/Odometry
+
+Publisher count: 1
+
+Node name: yahboom_base_node
+Node namespace: /
+Topic type: nav_msgs/msg/Odometry
+Endpoint type: PUBLISHER
+GID: 01.0f.e7.ee.91.08.2f.af.00.00.00.00.00.00.12.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 1
+
+Node name: sac_rviz
+Node namespace: /
+Topic type: nav_msgs/msg/Odometry
+Endpoint type: SUBSCRIPTION
+GID: 01.0f.ae.cf.06.f6.5f.1b.00.00.00.00.00.00.25.04.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+
+=== STATUS 2026-06-05T17:55:43+03:00 ===
+--- services active ---
+fastdds-discovery.service active
+robot-laser-tf.service active
+rplidar.service active
+yahboom-base.service active
+--- nodes ---
+/rplidar_node
+/sac_joint_state_publisher
+/sac_robot_state_publisher
+/sac_rviz
+/static_transform_publisher_5ZJQzV0MemZrS6KX
+/transform_listener_impl_62e61b6b85b0
+/yahboom_base_node
+--- topics ---
+/clicked_point
+/cmd_vel
+/goal_pose
+/joint_states
+/odom
+/parameter_events
+/robot_description
+/rosout
+/scan
+/tf
+/tf_static
+--- /cmd_vel info ---
+Type: geometry_msgs/msg/Twist
+
+Publisher count: 1
+
+Node name: _ros2cli_4864
+Node namespace: /
+Topic type: geometry_msgs/msg/Twist
+Endpoint type: PUBLISHER
+GID: 01.0f.e7.ee.00.13.bc.1d.00.00.00.00.00.00.05.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: TRANSIENT_LOCAL
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 1
+
+Node name: yahboom_base_node
+Node namespace: /
+Topic type: geometry_msgs/msg/Twist
+Endpoint type: SUBSCRIPTION
+GID: 01.0f.e7.ee.91.08.2f.af.00.00.00.00.00.00.11.04.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+--- /scan info ---
+Type: sensor_msgs/msg/LaserScan
+
+Publisher count: 1
+
+Node name: rplidar_node
+Node namespace: /
+Topic type: sensor_msgs/msg/LaserScan
+Endpoint type: PUBLISHER
+GID: 01.0f.e7.ee.04.09.d8.49.00.00.00.00.00.00.12.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 1
+
+Node name: sac_rviz
+Node namespace: /
+Topic type: sensor_msgs/msg/LaserScan
+Endpoint type: SUBSCRIPTION
+GID: 01.0f.ae.cf.06.f6.5f.1b.00.00.00.00.00.00.26.04.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: BEST_EFFORT
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+--- /odom info ---
+Type: nav_msgs/msg/Odometry
+
+Publisher count: 1
+
+Node name: yahboom_base_node
+Node namespace: /
+Topic type: nav_msgs/msg/Odometry
+Endpoint type: PUBLISHER
+GID: 01.0f.e7.ee.91.08.2f.af.00.00.00.00.00.00.12.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 1
+
+Node name: sac_rviz
+Node namespace: /
+Topic type: nav_msgs/msg/Odometry
+Endpoint type: SUBSCRIPTION
+GID: 01.0f.ae.cf.06.f6.5f.1b.00.00.00.00.00.00.25.04.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+
+=== STATUS 2026-06-05T17:56:48+03:00 ===
+--- services active ---
+fastdds-discovery.service active
+robot-laser-tf.service active
+rplidar.service active
+yahboom-base.service active
+--- nodes ---
+/rplidar_node
+/sac_joint_state_publisher
+/sac_robot_state_publisher
+/sac_rviz
+/static_transform_publisher_5ZJQzV0MemZrS6KX
+/transform_listener_impl_62d7370ea070
+/yahboom_base_node
+--- topics ---
+/clicked_point
+/cmd_vel
+/goal_pose
+/joint_states
+/odom
+/parameter_events
+/robot_description
+/rosout
+/scan
+/tf
+/tf_static
+--- /cmd_vel info ---
+Type: geometry_msgs/msg/Twist
+
+Publisher count: 1
+
+Node name: _ros2cli_4864
+Node namespace: /
+Topic type: geometry_msgs/msg/Twist
+Endpoint type: PUBLISHER
+GID: 01.0f.e7.ee.00.13.bc.1d.00.00.00.00.00.00.05.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: TRANSIENT_LOCAL
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 1
+
+Node name: yahboom_base_node
+Node namespace: /
+Topic type: geometry_msgs/msg/Twist
+Endpoint type: SUBSCRIPTION
+GID: 01.0f.e7.ee.91.08.2f.af.00.00.00.00.00.00.11.04.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+--- /scan info ---
+Type: sensor_msgs/msg/LaserScan
+
+Publisher count: 1
+
+Node name: rplidar_node
+Node namespace: /
+Topic type: sensor_msgs/msg/LaserScan
+Endpoint type: PUBLISHER
+GID: 01.0f.e7.ee.04.09.d8.49.00.00.00.00.00.00.12.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 1
+
+Node name: sac_rviz
+Node namespace: /
+Topic type: sensor_msgs/msg/LaserScan
+Endpoint type: SUBSCRIPTION
+GID: 01.0f.ae.cf.79.43.40.30.00.00.00.00.00.00.24.04.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: BEST_EFFORT
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+--- /odom info ---
+Type: nav_msgs/msg/Odometry
+
+Publisher count: 1
+
+Node name: yahboom_base_node
+Node namespace: /
+Topic type: nav_msgs/msg/Odometry
+Endpoint type: PUBLISHER
+GID: 01.0f.e7.ee.91.08.2f.af.00.00.00.00.00.00.12.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 1
+
+Node name: sac_rviz
+Node namespace: /
+Topic type: nav_msgs/msg/Odometry
+Endpoint type: SUBSCRIPTION
+GID: 01.0f.ae.cf.79.43.40.30.00.00.00.00.00.00.25.04.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+
+=== STATUS 2026-06-05T17:57:52+03:00 ===
+--- services active ---
+fastdds-discovery.service active
+robot-laser-tf.service active
+rplidar.service active
+yahboom-base.service active
+--- nodes ---
+/rplidar_node
+/sac_joint_state_publisher
+/sac_robot_state_publisher
+/sac_rviz
+/static_transform_publisher_5ZJQzV0MemZrS6KX
+/transform_listener_impl_5c99e456c300
+/yahboom_base_node
+--- topics ---
+/clicked_point
+/cmd_vel
+/goal_pose
+/joint_states
+/odom
+/parameter_events
+/robot_description
+/rosout
+/scan
+/tf
+/tf_static
+--- /cmd_vel info ---
+Type: geometry_msgs/msg/Twist
+
+Publisher count: 1
+
+Node name: _ros2cli_4864
+Node namespace: /
+Topic type: geometry_msgs/msg/Twist
+Endpoint type: PUBLISHER
+GID: 01.0f.e7.ee.00.13.bc.1d.00.00.00.00.00.00.05.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: TRANSIENT_LOCAL
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 1
+
+Node name: yahboom_base_node
+Node namespace: /
+Topic type: geometry_msgs/msg/Twist
+Endpoint type: SUBSCRIPTION
+GID: 01.0f.e7.ee.91.08.2f.af.00.00.00.00.00.00.11.04.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+--- /scan info ---
+Type: sensor_msgs/msg/LaserScan
+
+Publisher count: 1
+
+Node name: rplidar_node
+Node namespace: /
+Topic type: sensor_msgs/msg/LaserScan
+Endpoint type: PUBLISHER
+GID: 01.0f.e7.ee.04.09.d8.49.00.00.00.00.00.00.12.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 1
+
+Node name: sac_rviz
+Node namespace: /
+Topic type: sensor_msgs/msg/LaserScan
+Endpoint type: SUBSCRIPTION
+GID: 01.0f.ae.cf.f8.5f.9e.09.00.00.00.00.00.00.24.04.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: BEST_EFFORT
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+--- /odom info ---
+Type: nav_msgs/msg/Odometry
+
+Publisher count: 1
+
+Node name: yahboom_base_node
+Node namespace: /
+Topic type: nav_msgs/msg/Odometry
+Endpoint type: PUBLISHER
+GID: 01.0f.e7.ee.91.08.2f.af.00.00.00.00.00.00.12.03.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+
+Subscription count: 1
+
+Node name: sac_rviz
+Node namespace: /
+Topic type: nav_msgs/msg/Odometry
+Endpoint type: SUBSCRIPTION
+GID: 01.0f.ae.cf.f8.5f.9e.09.00.00.00.00.00.00.25.04.00.00.00.00.00.00.00.00
+QoS profile:
+  Reliability: RELIABLE
+  History (Depth): UNKNOWN
+  Durability: VOLATILE
+  Lifespan: Infinite
+  Deadline: Infinite
+  Liveliness: AUTOMATIC
+  Liveliness lease duration: Infinite
+

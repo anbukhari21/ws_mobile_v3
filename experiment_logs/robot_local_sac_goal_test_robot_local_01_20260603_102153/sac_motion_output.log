@@ -1,0 +1,228 @@
+[INFO] [launch]: All log files can be found below /home/abdulrhman/.ros/log/2026-06-03-10-24-02-973291-JTS-6563
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [launch.user]: [SAC AUTONOMY] /map + AMCL -> route generation -> SAC raw cmd -> emergency-only filter -> /cmd_vel. Old local rollout planner, PRE_ALIGN, residual yaw, command floor, recovery behavior, and online SAC are off.
+[INFO] [planner_server-1]: process started with pid [6667]
+[INFO] [lifecycle_manager-2]: process started with pid [6669]
+[INFO] [center_route_requester_node-3]: process started with pid [6671]
+[INFO] [local_target_node-4]: process started with pid [6673]
+[INFO] [sac_safety_filter_node-5]: process started with pid [6675]
+[INFO] [sac_motion_node-6]: process started with pid [6677]
+[INFO] [sac_validation_logger-7]: process started with pid [6695]
+[INFO] [goal_relative_calculator-8]: process started with pid [6701]
+[lifecycle_manager-2] [INFO] [1780471449.275330699] [lifecycle_manager_sac_route]: Creating
+[lifecycle_manager-2] [INFO] [1780471449.278363261] [lifecycle_manager_sac_route]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[planner_server-1] [INFO] [1780471449.332181812] [route_server]: 
+[planner_server-1] 	route_server lifecycle node launched. 
+[planner_server-1] 	Waiting on external lifecycle transitions to activate
+[planner_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-1] [INFO] [1780471449.335138533] [route_server]: Creating
+[planner_server-1] [INFO] [1780471449.366025527] [global_costmap.global_costmap]: 
+[planner_server-1] 	global_costmap lifecycle node launched. 
+[planner_server-1] 	Waiting on external lifecycle transitions to activate
+[planner_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-1] [INFO] [1780471449.367551328] [global_costmap.global_costmap]: Creating Costmap
+[lifecycle_manager-2] [INFO] [1780471450.406947495] [lifecycle_manager_sac_route]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-2] [INFO] [1780471450.407131144] [lifecycle_manager_sac_route]: [34m[1mConfiguring route_server[0m[0m
+[planner_server-1] [INFO] [1780471450.408028397] [route_server]: Configuring
+[planner_server-1] [INFO] [1780471450.408136046] [global_costmap.global_costmap]: Configuring
+[planner_server-1] [INFO] [1780471450.465636637] [global_costmap.global_costmap]: Using plugin "static_layer"
+[planner_server-1] [INFO] [1780471450.503463385] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[planner_server-1] [INFO] [1780471450.518955603] [global_costmap.global_costmap]: Subscribing to updates
+[planner_server-1] [INFO] [1780471450.555024741] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[planner_server-1] [INFO] [1780471450.558725211] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[planner_server-1] [INFO] [1780471450.578125228] [global_costmap.global_costmap]: Subscribed to Topics: scan
+[planner_server-1] [INFO] [1780471450.635597818] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[planner_server-1] [INFO] [1780471450.638208713] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[planner_server-1] [INFO] [1780471450.644015275] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[sac_validation_logger-7] [INFO] [1780471450.658635968] [sac_validation_logger]: Writing SAC navigation validation CSV: /home/abdulrhman/ws_mobile_v2/experiment_logs/robot_local_sac_goal_test_robot_local_01_20260603_102153/sac_motion_validation.csv
+[planner_server-1] [INFO] [1780471450.764915083] [route_server]: Created global planner plugin GridBased of type nav2_navfn_planner/NavfnPlanner
+[planner_server-1] [INFO] [1780471450.765062092] [route_server]: Configuring plugin GridBased of type NavfnPlanner
+[sac_safety_filter_node-5] [INFO] [1780471450.765913681] [sac_safety_filter_node]: Emergency-only SAC filter active: if front_min < 0.070 m and linear.x > 0, only linear.x is set to 0. angular.z is preserved exactly.
+[planner_server-1] [INFO] [1780471450.770235466] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 236 X 216 at 0.020000 m/pix
+[planner_server-1] [INFO] [1780471450.785412835] [route_server]: Planner Server has GridBased  planners available.
+[lifecycle_manager-2] [INFO] [1780471450.892615411] [lifecycle_manager_sac_route]: [34m[1mActivating route_server[0m[0m
+[planner_server-1] [INFO] [1780471450.896671979] [route_server]: Activating
+[planner_server-1] [INFO] [1780471450.897015181] [global_costmap.global_costmap]: Activating
+[planner_server-1] [INFO] [1780471450.897108781] [global_costmap.global_costmap]: Checking transform
+[planner_server-1] [INFO] [1780471450.897350830] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 1780471450.853262 but the earliest data is at time 1780471451.545197, when looking up transform from frame [base_footprint] to frame [map]
+[goal_relative_calculator-8] [INFO] [1780471451.019145524] [goal_relative_calculator]: Goal relative calculator ready: publishes /goal_distance, /goal_angle, /goal_valid, /goal_reached
+[planner_server-1] [INFO] [1780471451.397313504] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 1780471451.336781 but the earliest data is at time 1780471451.545197, when looking up transform from frame [base_footprint] to frame [map]
+[planner_server-1] [INFO] [1780471451.897755481] [global_costmap.global_costmap]: start
+[planner_server-1] [INFO] [1780471452.149979113] [route_server]: Activating plugin GridBased of type NavfnPlanner
+[planner_server-1] [INFO] [1780471452.153688510] [route_server]: Creating bond (route_server) to lifecycle manager.
+[lifecycle_manager-2] [INFO] [1780471452.470937747] [lifecycle_manager_sac_route]: Server route_server connected with bond.
+[lifecycle_manager-2] [INFO] [1780471452.471064308] [lifecycle_manager_sac_route]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-2] [INFO] [1780471452.471095764] [lifecycle_manager_sac_route]: [34m[1mCreating bond timer...[0m[0m
+[center_route_requester_node-3] [WARN] [1780471452.512350280] [center_route_requester]: Waiting for map->base_footprint TF: Lookup would require extrapolation into the past.  Requested time 1780471452.187778 but the earliest data is at time 1780471452.840743, when looking up transform from frame [base_footprint] to frame [map]
+[center_route_requester_node-3] [INFO] [1780471453.229936488] [center_route_requester]: Published center route with 24 poses.
+[goal_relative_calculator-8] [INFO] [1780471453.958225053] [goal_relative_calculator]: goal_distance=0.177m goal_angle=3.022rad pose_source=tf
+[sac_motion_node-6] [INFO] [1780471455.885081371] [sac_motion_node]: Loading SAC navigation model: /home/abdulrhman/ws_mobile_v2/rl_models/sac_goal_policy.zip
+[goal_relative_calculator-8] [INFO] [1780471456.958306983] [goal_relative_calculator]: goal_distance=0.177m goal_angle=3.022rad pose_source=tf
+[sac_motion_node-6] [INFO] [1780471457.843939270] [sac_motion_node]: SAC navigation observation schema:
+[sac_motion_node-6] [INFO] [1780471457.844758219] [sac_motion_node]:   00: lookahead_distance_norm
+[sac_motion_node-6] [INFO] [1780471457.845467952] [sac_motion_node]:   01: lookahead_angle_norm
+[sac_motion_node-6] [INFO] [1780471457.846168084] [sac_motion_node]:   02: sin_lookahead_angle
+[sac_motion_node-6] [INFO] [1780471457.846844632] [sac_motion_node]:   03: cos_lookahead_angle
+[sac_motion_node-6] [INFO] [1780471457.847549916] [sac_motion_node]:   04: signed_cross_track_error_norm
+[sac_motion_node-6] [INFO] [1780471457.848218016] [sac_motion_node]:   05: abs_cross_track_error_norm
+[sac_motion_node-6] [INFO] [1780471457.848892709] [sac_motion_node]:   06: cross_track_error_delta_norm
+[sac_motion_node-6] [INFO] [1780471457.849565161] [sac_motion_node]:   07: path_heading_error_norm
+[sac_motion_node-6] [INFO] [1780471457.850220717] [sac_motion_node]:   08: sin_path_heading_error
+[sac_motion_node-6] [INFO] [1780471457.850881681] [sac_motion_node]:   09: cos_path_heading_error
+[sac_motion_node-6] [INFO] [1780471457.851582805] [sac_motion_node]:   10: path_progress_fraction
+[sac_motion_node-6] [INFO] [1780471457.852244249] [sac_motion_node]:   11: remaining_path_distance_norm
+[sac_motion_node-6] [INFO] [1780471457.852881949] [sac_motion_node]:   12: distance_to_segment_end_norm
+[sac_motion_node-6] [INFO] [1780471457.853549537] [sac_motion_node]:   13: upcoming_turn_angle_norm
+[sac_motion_node-6] [INFO] [1780471457.854222533] [sac_motion_node]:   14: upcoming_turn_direction
+[sac_motion_node-6] [INFO] [1780471457.854884937] [sac_motion_node]:   15: previous_cmd_linear_norm
+[sac_motion_node-6] [INFO] [1780471457.855560238] [sac_motion_node]:   16: previous_cmd_angular_norm
+[sac_motion_node-6] [INFO] [1780471457.856219058] [sac_motion_node]:   17: previous_raw_action_linear
+[sac_motion_node-6] [INFO] [1780471457.856890486] [sac_motion_node]:   18: previous_raw_action_angular
+[sac_motion_node-6] [INFO] [1780471457.857559738] [sac_motion_node]:   19: linear_speed_norm
+[sac_motion_node-6] [INFO] [1780471457.858243070] [sac_motion_node]:   20: angular_speed_norm
+[sac_motion_node-6] [INFO] [1780471457.858915426] [sac_motion_node]:   21: distance_to_final_waypoint_norm
+[sac_motion_node-6] [INFO] [1780471457.859595814] [sac_motion_node]:   22: current_segment_index_norm
+[sac_motion_node-6] [INFO] [1780471457.860232970] [sac_motion_node]:   23: lidar_sector_0_norm
+[sac_motion_node-6] [INFO] [1780471457.860873070] [sac_motion_node]:   24: lidar_sector_1_norm
+[sac_motion_node-6] [INFO] [1780471457.861525298] [sac_motion_node]:   25: lidar_sector_2_norm
+[sac_motion_node-6] [INFO] [1780471457.862160438] [sac_motion_node]:   26: lidar_sector_3_norm
+[sac_motion_node-6] [INFO] [1780471457.862806362] [sac_motion_node]:   27: lidar_sector_4_norm
+[sac_motion_node-6] [INFO] [1780471457.863485406] [sac_motion_node]:   28: lidar_sector_5_norm
+[sac_motion_node-6] [INFO] [1780471457.864119234] [sac_motion_node]:   29: lidar_sector_6_norm
+[sac_motion_node-6] [INFO] [1780471457.864761702] [sac_motion_node]:   30: lidar_sector_7_norm
+[sac_motion_node-6] [WARN] [1780471458.266437686] [sac_motion_node]: Waiting for map->base_footprint TF: Lookup would require extrapolation into the past.  Requested time 1780471458.172630 but the earliest data is at time 1780471458.840356, when looking up transform from frame [base_footprint] to frame [map]
+[goal_relative_calculator-8] [INFO] [1780471459.959437583] [goal_relative_calculator]: goal_distance=0.184m goal_angle=2.951rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471462.961135694] [goal_relative_calculator]: goal_distance=0.211m goal_angle=2.584rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471465.959137027] [goal_relative_calculator]: goal_distance=0.219m goal_angle=2.281rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471468.960545496] [goal_relative_calculator]: goal_distance=0.233m goal_angle=1.959rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471471.963387516] [goal_relative_calculator]: goal_distance=0.242m goal_angle=1.704rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471474.962685353] [goal_relative_calculator]: goal_distance=0.247m goal_angle=1.481rad pose_source=tf
+[center_route_requester_node-3] [INFO] [1780471476.218659472] [center_route_requester]: Published center route with 31 poses.
+[goal_relative_calculator-8] [INFO] [1780471477.959340159] [goal_relative_calculator]: goal_distance=0.240m goal_angle=1.226rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471480.961566516] [goal_relative_calculator]: goal_distance=0.219m goal_angle=0.926rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471483.959380669] [goal_relative_calculator]: goal_distance=0.169m goal_angle=0.597rad pose_source=tf
+[center_route_requester_node-3] [INFO] [1780471484.216959092] [center_route_requester]: Published center route with 16 poses.
+[goal_relative_calculator-8] [INFO] [1780471486.959238691] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.531rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471489.959126931] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471492.959486350] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471495.959268870] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471498.959302430] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471501.959386289] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471504.959429273] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471507.959397490] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471510.959455322] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471513.959208330] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471516.960133993] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471519.959291869] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471522.959327574] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471525.959700685] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471528.960836962] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471531.959383572] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471534.959314914] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471537.959504223] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471540.959215424] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471543.959462507] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471546.959326389] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471549.961110800] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471552.959287972] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471555.961356086] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471558.958975536] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471561.959680955] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471564.960620630] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471567.959227397] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471570.959266027] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471573.959257365] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471576.958946750] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471579.959153387] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471582.959403956] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471585.959221906] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471588.959537004] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471591.959471476] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471594.959237963] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471597.959327859] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471600.959492199] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471603.959423425] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471606.959365215] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471609.959452194] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471612.959772520] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471615.959567205] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471618.959331773] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471621.959081709] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471624.959184823] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471627.959210899] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471630.959456258] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471633.959384764] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471636.959138368] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471639.958970063] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471642.959424812] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471645.959499530] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471648.959279078] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471651.959492680] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471654.959387077] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471657.959496128] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471660.960536896] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471663.961417334] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471666.961058705] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471669.959430864] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471672.959315923] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471675.959116292] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471678.959132741] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471681.959436532] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471684.959196293] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471687.959185729] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471690.959441669] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471693.959656331] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471696.959507727] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471699.959269808] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471702.959424020] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471705.959335824] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471708.959297607] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471711.959278359] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471714.959381630] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471717.959213526] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471720.959574952] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471723.959466373] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471726.960801061] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471729.959274923] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471732.959429301] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471735.960983484] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471738.959269023] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471741.959201280] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471744.959335946] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471747.959409238] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471750.959235874] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471753.959415060] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471756.960713877] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471759.961375531] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471762.959320375] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471765.959192154] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471768.959839425] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471771.959235951] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471774.959524512] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471777.959122941] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471780.959321270] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471783.958887545] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471786.959174328] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471789.959268292] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471792.959330750] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471795.959278149] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471798.959133974] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471801.959188564] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471804.959393023] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471807.958938793] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471810.959240740] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471813.961982858] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471816.959673962] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471819.962609756] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471822.959232882] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471825.959208859] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471828.961691018] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471831.959208686] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471834.959350071] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471837.959467837] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471840.960190983] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471843.959663801] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471846.959506123] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471849.959140178] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471852.959895009] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780471855.959322771] [goal_relative_calculator]: goal_distance=0.126m goal_angle=0.525rad pose_source=tf

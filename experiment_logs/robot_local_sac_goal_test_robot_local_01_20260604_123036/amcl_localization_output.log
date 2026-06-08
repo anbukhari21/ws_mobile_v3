@@ -1,0 +1,172 @@
+[INFO] [launch]: All log files can be found below /home/abdulrhman/.ros/log/2026-06-04-12-30-40-049607-JTS-14626
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [launch.user]: [PATH V2 AMCL] localization only: map_server + amcl + lifecycle. No planner_server, bt_navigator, waypoint_follower, PRE_ALIGN, or Stage0 yaw nodes. Global AMCL autorotate helper is available through auto_global_localization/auto_rotate args.
+[INFO] [map_server-1]: process started with pid [14629]
+[INFO] [amcl-2]: process started with pid [14631]
+[INFO] [lifecycle_manager-3]: process started with pid [14633]
+[INFO] [global_amcl_autorotate_node-4]: process started with pid [14635]
+[amcl-2] [INFO] [1780565440.542085380] [amcl]: 
+[amcl-2] 	amcl lifecycle node launched. 
+[amcl-2] 	Waiting on external lifecycle transitions to activate
+[amcl-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[amcl-2] [INFO] [1780565440.553159394] [amcl]: Creating
+[lifecycle_manager-3] [INFO] [1780565440.732566342] [lifecycle_manager_sac_localization]: Creating
+[lifecycle_manager-3] [INFO] [1780565440.738826000] [lifecycle_manager_sac_localization]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[map_server-1] [INFO] [1780565440.888411516] [map_server]: 
+[map_server-1] 	map_server lifecycle node launched. 
+[map_server-1] 	Waiting on external lifecycle transitions to activate
+[map_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_server-1] [INFO] [1780565440.888798763] [map_server]: Creating
+[global_amcl_autorotate_node-4] [INFO] [1780565441.773977277] [global_amcl_autorotate_node]: Global AMCL autorotate helper ready: cmd_vel_topic=/cmd_vel start_delay=3.0s
+[lifecycle_manager-3] [INFO] [1780565442.770542044] [lifecycle_manager_sac_localization]: Waiting for service map_server/get_state...
+[global_amcl_autorotate_node-4] [INFO] [1780565444.704505521] [global_amcl_autorotate_node]: Waiting for /reinitialize_global_localization for up to 30.0s...
+[lifecycle_manager-3] [INFO] [1780565444.771593299] [lifecycle_manager_sac_localization]: Waiting for service map_server/get_state...
+[lifecycle_manager-3] [INFO] [1780565444.880332037] [lifecycle_manager_sac_localization]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-3] [INFO] [1780565444.882972200] [lifecycle_manager_sac_localization]: [34m[1mConfiguring map_server[0m[0m
+[map_server-1] [INFO] [1780565444.894241739] [map_server]: Configuring
+[map_server-1] [INFO] [1780565444.894444627] [map_io]: Loading yaml file: /home/abdulrhman/maps/real_robot_sac_map_20260604_115356.yaml
+[map_server-1] [INFO] [1780565444.895046249] [map_io]: resolution: 0.02
+[map_server-1] [INFO] [1780565444.895076235] [map_io]: origin[0]: -2.52
+[map_server-1] [INFO] [1780565444.895087275] [map_io]: origin[1]: -2.09
+[map_server-1] [INFO] [1780565444.895095051] [map_io]: origin[2]: 0
+[map_server-1] [INFO] [1780565444.895103308] [map_io]: free_thresh: 0.25
+[map_server-1] [INFO] [1780565444.895110732] [map_io]: occupied_thresh: 0.65
+[map_server-1] [INFO] [1780565444.895119692] [map_io]: mode: trinary
+[map_server-1] [INFO] [1780565444.895130637] [map_io]: negate: 0
+[map_server-1] [INFO] [1780565444.895548060] [map_io]: Loading image_file: /home/abdulrhman/maps/real_robot_sac_map_20260604_115356.pgm
+[map_server-1] [INFO] [1780565444.956990989] [map_io]: Read map /home/abdulrhman/maps/real_robot_sac_map_20260604_115356.pgm: 221 X 211 map @ 0.02 m/cell
+[lifecycle_manager-3] [INFO] [1780565445.092772364] [lifecycle_manager_sac_localization]: [34m[1mConfiguring amcl[0m[0m
+[amcl-2] [INFO] [1780565445.095325643] [amcl]: Configuring
+[amcl-2] [INFO] [1780565445.095565460] [amcl]: initTransforms
+[amcl-2] [INFO] [1780565445.236428529] [amcl]: initPubSub
+[amcl-2] [INFO] [1780565445.298652221] [amcl]: Subscribed to map topic.
+[lifecycle_manager-3] [INFO] [1780565445.358298730] [lifecycle_manager_sac_localization]: [34m[1mActivating map_server[0m[0m
+[map_server-1] [INFO] [1780565445.360580895] [map_server]: Activating
+[map_server-1] [INFO] [1780565445.361813645] [map_server]: Creating bond (map_server) to lifecycle manager.
+[amcl-2] [INFO] [1780565445.364862974] [amcl]: Received a 221 X 211 map @ 0.020 m/pix
+[lifecycle_manager-3] [INFO] [1780565445.506623356] [lifecycle_manager_sac_localization]: Server map_server connected with bond.
+[lifecycle_manager-3] [INFO] [1780565445.506814339] [lifecycle_manager_sac_localization]: [34m[1mActivating amcl[0m[0m
+[amcl-2] [INFO] [1780565445.507850314] [amcl]: Activating
+[amcl-2] [INFO] [1780565445.507941869] [amcl]: Creating bond (amcl) to lifecycle manager.
+[amcl-2] [INFO] [1780565445.559909052] [amcl]: createLaserObject
+[lifecycle_manager-3] [INFO] [1780565445.627088897] [lifecycle_manager_sac_localization]: Server amcl connected with bond.
+[lifecycle_manager-3] [INFO] [1780565445.627195877] [lifecycle_manager_sac_localization]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-3] [INFO] [1780565445.627228870] [lifecycle_manager_sac_localization]: [34m[1mCreating bond timer...[0m[0m
+[amcl-2] [INFO] [1780565446.364003111] [amcl]: Message Filter dropping message: frame 'laser' at time 1780565445.157 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[amcl-2] [WARN] [1780565447.150241777] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1780565449.251406670] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1780565451.347223682] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1780565453.447927883] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [WARN] [1780565455.542808218] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [INFO] [1780565456.203679857] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565456.612340797] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565456.839884143] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565457.208476938] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565457.616867174] [amcl]: Requesting no-motion update
+[amcl-2] [WARN] [1780565457.798801467] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [INFO] [1780565458.843460577] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565459.191312209] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565459.614331390] [amcl]: Requesting no-motion update
+[amcl-2] [WARN] [1780565459.840079140] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [INFO] [1780565460.209156737] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565460.844577180] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565461.218680302] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565461.612177163] [amcl]: Requesting no-motion update
+[amcl-2] [WARN] [1780565461.842403599] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [INFO] [1780565462.616413695] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565462.844017152] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565463.218142375] [amcl]: Requesting no-motion update
+[amcl-2] [WARN] [1780565463.933752347] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [INFO] [1780565464.600614876] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565464.839678109] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565465.206194657] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565465.616081796] [amcl]: Requesting no-motion update
+[amcl-2] [WARN] [1780565465.935852487] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [INFO] [1780565466.208261105] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565466.821945971] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565467.211114960] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565467.613383374] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565467.837392922] [amcl]: Requesting no-motion update
+[amcl-2] [WARN] [1780565467.969798992] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [INFO] [1780565468.615835466] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565468.839478821] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565469.209156104] [amcl]: Requesting no-motion update
+[amcl-2] [WARN] [1780565470.035067104] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [INFO] [1780565470.614679575] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565470.840068939] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565471.206800727] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565471.615198144] [amcl]: Requesting no-motion update
+[amcl-2] [WARN] [1780565472.035663365] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [INFO] [1780565472.822135502] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565473.213345077] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565473.615271460] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565473.823250126] [amcl]: Requesting no-motion update
+[amcl-2] [WARN] [1780565474.129260335] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [INFO] [1780565474.615719040] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565474.840288489] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565475.212256833] [amcl]: Requesting no-motion update
+[amcl-2] [WARN] [1780565476.224286288] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [INFO] [1780565476.615406016] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565476.843208506] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565477.206796755] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565477.615830961] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565477.843466562] [amcl]: Requesting no-motion update
+[amcl-2] [WARN] [1780565478.325072646] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [INFO] [1780565479.210274038] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565479.616288377] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565479.843538933] [amcl]: Requesting no-motion update
+[amcl-2] [WARN] [1780565480.327150902] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [INFO] [1780565481.208917678] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565481.600064548] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565481.839894248] [amcl]: Requesting no-motion update
+[amcl-2] [WARN] [1780565482.421260958] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [INFO] [1780565482.613761909] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565483.209550616] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565483.827632198] [amcl]: Requesting no-motion update
+[amcl-2] [WARN] [1780565484.521517322] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [INFO] [1780565484.612557876] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565485.209322826] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565485.613619084] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565485.839020817] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565486.210131760] [amcl]: Requesting no-motion update
+[amcl-2] [WARN] [1780565486.522180120] [amcl]: AMCL cannot publish a pose or update the transform. Please set the initial pose...
+[amcl-2] [INFO] [1780565486.615486419] [amcl]: Requesting no-motion update
+[amcl-2] [INFO] [1780565486.838975791] [amcl]: Requesting no-motion update
+[lifecycle_manager-3] [INFO] [1780565487.141686879] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[lifecycle_manager-3] [INFO] [1780565487.141918696] [lifecycle_manager_sac_localization]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_manager_sac_localization)
+[lifecycle_manager-3] [INFO] [1780565487.142015275] [lifecycle_manager_sac_localization]: [34m[1mTerminating bond timer...[0m[0m
+[amcl-2] [INFO] [1780565487.142130320] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[amcl-2] [INFO] [1780565487.142301654] [amcl]: Running Nav2 LifecycleNode rcl preshutdown (amcl)
+[amcl-2] [INFO] [1780565487.142441531] [amcl]: Deactivating
+[amcl-2] [INFO] [1780565487.142544319] [amcl]: Destroying bond (amcl) to lifecycle manager.
+[map_server-1] [INFO] [1780565487.143515426] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[map_server-1] [INFO] [1780565487.143649063] [map_server]: Running Nav2 LifecycleNode rcl preshutdown (map_server)
+[map_server-1] [INFO] [1780565487.144045110] [map_server]: Deactivating
+[map_server-1] [INFO] [1780565487.144098680] [map_server]: Destroying bond (map_server) to lifecycle manager.
+[map_server-1] [INFO] [1780565487.154723229] [map_server]: Cleaning up
+[map_server-1] [INFO] [1780565487.154895427] [map_server]: Destroying bond (map_server) to lifecycle manager.
+[amcl-2] [INFO] [1780565487.175628442] [amcl]: Cleaning up
+[map_server-1] [INFO] [1780565487.251181481] [map_server]: Destroying
+[lifecycle_manager-3] [INFO] [1780565487.303107831] [lifecycle_manager_sac_localization]: Destroying lifecycle_manager_sac_localization
+[amcl-2] [INFO] [1780565487.507794431] [amcl]: Destroying bond (amcl) to lifecycle manager.
+[amcl-2] [INFO] [1780565487.617817821] [amcl]: Destroying
+[INFO] [map_server-1]: process has finished cleanly [pid 14629]
+[INFO] [lifecycle_manager-3]: process has finished cleanly [pid 14633]
+[global_amcl_autorotate_node-4] Traceback (most recent call last):
+[global_amcl_autorotate_node-4]   File "/home/abdulrhman/ws_mobile_v2/install/mobile_robot/lib/mobile_robot/global_amcl_autorotate_node", line 124, in <module>
+[global_amcl_autorotate_node-4]     main()
+[global_amcl_autorotate_node-4]   File "/home/abdulrhman/ws_mobile_v2/install/mobile_robot/lib/mobile_robot/global_amcl_autorotate_node", line 114, in main
+[global_amcl_autorotate_node-4]     rclpy.spin(node)
+[global_amcl_autorotate_node-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+[global_amcl_autorotate_node-4]     executor.spin_once()
+[global_amcl_autorotate_node-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 808, in spin_once
+[global_amcl_autorotate_node-4]     self._spin_once_impl(timeout_sec)
+[global_amcl_autorotate_node-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 797, in _spin_once_impl
+[global_amcl_autorotate_node-4]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+[global_amcl_autorotate_node-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 780, in wait_for_ready_callbacks
+[global_amcl_autorotate_node-4]     return next(self._cb_iter)
+[global_amcl_autorotate_node-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 681, in _wait_for_ready_callbacks
+[global_amcl_autorotate_node-4]     raise ExternalShutdownException()
+[global_amcl_autorotate_node-4] rclpy.executors.ExternalShutdownException
+[INFO] [amcl-2]: process has finished cleanly [pid 14631]
+[ERROR] [global_amcl_autorotate_node-4]: process has died [pid 14635, exit code 1, cmd '/home/abdulrhman/ws_mobile_v2/install/mobile_robot/lib/mobile_robot/global_amcl_autorotate_node --ros-args -r __node:=global_amcl_autorotate_node --params-file /tmp/launch_params_ulmg4e7d'].

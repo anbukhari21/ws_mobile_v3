@@ -1,0 +1,3 @@
+[INFO] [1780669944.641601736] [battery_endurance_monitor]: Battery endurance CSV: /home/abdulrahman/ws_mobile_v2/experiment_logs/endurance_battery_20260605_172224/battery_endurance.csv
+[INFO] [1780669944.642728462] [battery_endurance_monitor]: Streaming velocity from robot over SSH: abdulrhman@192.168.1.55
+[WARN] [1780669944.643034779] [battery_endurance_monitor]: Battery endurance monitor is passive. It does not publish /cmd_vel.

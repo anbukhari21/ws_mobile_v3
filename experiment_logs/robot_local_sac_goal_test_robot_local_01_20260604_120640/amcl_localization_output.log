@@ -1,0 +1,67 @@
+[INFO] [launch]: All log files can be found below /home/abdulrhman/.ros/log/2026-06-04-12-06-43-827664-JTS-11405
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [launch.user]: [PATH V2 AMCL] localization only: map_server + amcl + lifecycle. No planner_server, bt_navigator, waypoint_follower, PRE_ALIGN, or Stage0 yaw nodes. Global AMCL autorotate helper is available through auto_global_localization/auto_rotate args.
+[INFO] [map_server-1]: process started with pid [11408]
+[INFO] [amcl-2]: process started with pid [11410]
+[INFO] [lifecycle_manager-3]: process started with pid [11412]
+[INFO] [global_amcl_autorotate_node-4]: process started with pid [11414]
+[lifecycle_manager-3] [INFO] [1780564004.117005644] [lifecycle_manager_sac_localization]: Creating
+[lifecycle_manager-3] [INFO] [1780564004.123033274] [lifecycle_manager_sac_localization]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[amcl-2] [INFO] [1780564004.127974726] [amcl]: 
+[amcl-2] 	amcl lifecycle node launched. 
+[amcl-2] 	Waiting on external lifecycle transitions to activate
+[amcl-2] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[amcl-2] [INFO] [1780564004.128961225] [amcl]: Creating
+[map_server-1] [INFO] [1780564004.162720218] [map_server]: 
+[map_server-1] 	map_server lifecycle node launched. 
+[map_server-1] 	Waiting on external lifecycle transitions to activate
+[map_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[map_server-1] [INFO] [1780564004.163081243] [map_server]: Creating
+[global_amcl_autorotate_node-4] [INFO] [1780564004.834756530] [global_amcl_autorotate_node]: Global AMCL autorotate helper ready: cmd_vel_topic=/cmd_vel start_delay=3.0s
+[lifecycle_manager-3] [INFO] [1780564006.124772654] [lifecycle_manager_sac_localization]: Waiting for service map_server/get_state...
+[lifecycle_manager-3] [INFO] [1780564006.201282660] [lifecycle_manager_sac_localization]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-3] [INFO] [1780564006.201415717] [lifecycle_manager_sac_localization]: [34m[1mConfiguring map_server[0m[0m
+[map_server-1] [INFO] [1780564006.203142634] [map_server]: Configuring
+[map_server-1] [INFO] [1780564006.203319498] [map_io]: Loading yaml file: /home/abdulrhman/maps/real_robot_sac_map_20260604_115356.yaml
+[map_server-1] [INFO] [1780564006.203884428] [map_io]: resolution: 0.02
+[map_server-1] [INFO] [1780564006.203912300] [map_io]: origin[0]: -2.52
+[map_server-1] [INFO] [1780564006.203922252] [map_io]: origin[1]: -2.09
+[map_server-1] [INFO] [1780564006.203929868] [map_io]: origin[2]: 0
+[map_server-1] [INFO] [1780564006.203938348] [map_io]: free_thresh: 0.25
+[map_server-1] [INFO] [1780564006.203945900] [map_io]: occupied_thresh: 0.65
+[map_server-1] [INFO] [1780564006.203954924] [map_io]: mode: trinary
+[map_server-1] [INFO] [1780564006.203965804] [map_io]: negate: 0
+[map_server-1] [INFO] [1780564006.204397837] [map_io]: Loading image_file: /home/abdulrhman/maps/real_robot_sac_map_20260604_115356.pgm
+[map_server-1] [INFO] [1780564006.214963307] [map_io]: Read map /home/abdulrhman/maps/real_robot_sac_map_20260604_115356.pgm: 221 X 211 map @ 0.02 m/cell
+[map_server-1] [WARN] [1780564006.323997052] [map_server.rclcpp]: failed to send response to /map_server/change_state (timeout): client will not receive response, at ./src/rmw_response.cpp:154, at ./src/rcl/service.c:314
+[global_amcl_autorotate_node-4] [INFO] [1780564007.801165370] [global_amcl_autorotate_node]: Waiting for /reinitialize_global_localization for up to 30.0s...
+[amcl-2] [INFO] [1780564095.072871956] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[amcl-2] [INFO] [1780564095.073101143] [amcl]: Running Nav2 LifecycleNode rcl preshutdown (amcl)
+[amcl-2] [INFO] [1780564095.073215545] [amcl]: Destroying bond (amcl) to lifecycle manager.
+[map_server-1] [INFO] [1780564095.072958741] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[map_server-1] [INFO] [1780564095.073179001] [map_server]: Running Nav2 LifecycleNode rcl preshutdown (map_server)
+[map_server-1] [INFO] [1780564095.073364795] [map_server]: Cleaning up
+[lifecycle_manager-3] [INFO] [1780564095.073015702] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[lifecycle_manager-3] [INFO] [1780564095.073140792] [lifecycle_manager_sac_localization]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_manager_sac_localization)
+[map_server-1] [INFO] [1780564095.073450557] [map_server]: Destroying bond (map_server) to lifecycle manager.
+[amcl-2] [INFO] [1780564095.083616725] [amcl]: Destroying
+[map_server-1] [INFO] [1780564095.120854146] [map_server]: Destroying
+[global_amcl_autorotate_node-4] Traceback (most recent call last):
+[global_amcl_autorotate_node-4]   File "/home/abdulrhman/ws_mobile_v2/install/mobile_robot/lib/mobile_robot/global_amcl_autorotate_node", line 124, in <module>
+[global_amcl_autorotate_node-4]     main()
+[global_amcl_autorotate_node-4]   File "/home/abdulrhman/ws_mobile_v2/install/mobile_robot/lib/mobile_robot/global_amcl_autorotate_node", line 114, in main
+[global_amcl_autorotate_node-4]     rclpy.spin(node)
+[global_amcl_autorotate_node-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+[global_amcl_autorotate_node-4]     executor.spin_once()
+[global_amcl_autorotate_node-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 808, in spin_once
+[global_amcl_autorotate_node-4]     self._spin_once_impl(timeout_sec)
+[global_amcl_autorotate_node-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 797, in _spin_once_impl
+[global_amcl_autorotate_node-4]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+[global_amcl_autorotate_node-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 780, in wait_for_ready_callbacks
+[global_amcl_autorotate_node-4]     return next(self._cb_iter)
+[global_amcl_autorotate_node-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 681, in _wait_for_ready_callbacks
+[global_amcl_autorotate_node-4]     raise ExternalShutdownException()
+[global_amcl_autorotate_node-4] rclpy.executors.ExternalShutdownException
+[INFO] [amcl-2]: process has finished cleanly [pid 11410]
+[INFO] [map_server-1]: process has finished cleanly [pid 11408]
+[ERROR] [global_amcl_autorotate_node-4]: process has died [pid 11414, exit code 1, cmd '/home/abdulrhman/ws_mobile_v2/install/mobile_robot/lib/mobile_robot/global_amcl_autorotate_node --ros-args -r __node:=global_amcl_autorotate_node --params-file /tmp/launch_params_cb4s7n2c'].

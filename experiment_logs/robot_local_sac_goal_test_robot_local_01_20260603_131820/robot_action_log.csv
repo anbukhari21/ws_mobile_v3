@@ -1,0 +1,1 @@
+step,time_sec,odom_x,odom_y,yaw,odom_linear_x,odom_angular_z,cmd_linear_x,cmd_angular_z,goal_x,goal_y,distance_to_goal,angle_to_goal,min_lidar_range,mean_lidar_range,collision_flag,reached_goal_flag,control_source,cmd_vel_publishers

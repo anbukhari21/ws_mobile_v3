@@ -1,0 +1,299 @@
+[INFO] [launch]: All log files can be found below /home/abdulrhman/.ros/log/2026-06-03-10-43-02-832706-JTS-8827
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [launch.user]: [SAC AUTONOMY] /map + AMCL -> route generation -> SAC raw cmd -> emergency-only filter -> /cmd_vel. Old local rollout planner, PRE_ALIGN, residual yaw, command floor, recovery behavior, and online SAC are off.
+[INFO] [planner_server-1]: process started with pid [9003]
+[INFO] [lifecycle_manager-2]: process started with pid [9005]
+[INFO] [center_route_requester_node-3]: process started with pid [9007]
+[INFO] [local_target_node-4]: process started with pid [9009]
+[INFO] [sac_safety_filter_node-5]: process started with pid [9012]
+[INFO] [sac_motion_node-6]: process started with pid [9015]
+[INFO] [sac_validation_logger-7]: process started with pid [9025]
+[INFO] [goal_relative_calculator-8]: process started with pid [9040]
+[planner_server-1] [INFO] [1780472589.151705991] [route_server]: 
+[planner_server-1] 	route_server lifecycle node launched. 
+[planner_server-1] 	Waiting on external lifecycle transitions to activate
+[planner_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-1] [INFO] [1780472589.154508408] [route_server]: Creating
+[planner_server-1] [INFO] [1780472589.162822698] [global_costmap.global_costmap]: 
+[planner_server-1] 	global_costmap lifecycle node launched. 
+[planner_server-1] 	Waiting on external lifecycle transitions to activate
+[planner_server-1] 	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[planner_server-1] [INFO] [1780472589.163987231] [global_costmap.global_costmap]: Creating Costmap
+[lifecycle_manager-2] [INFO] [1780472589.210602897] [lifecycle_manager_sac_route]: Creating
+[lifecycle_manager-2] [INFO] [1780472589.230166120] [lifecycle_manager_sac_route]: [34m[1mCreating and initializing lifecycle service clients[0m[0m
+[lifecycle_manager-2] [INFO] [1780472590.375229104] [lifecycle_manager_sac_route]: [34m[1mStarting managed nodes bringup...[0m[0m
+[lifecycle_manager-2] [INFO] [1780472590.375383219] [lifecycle_manager_sac_route]: [34m[1mConfiguring route_server[0m[0m
+[planner_server-1] [INFO] [1780472590.604762414] [route_server]: Configuring
+[planner_server-1] [INFO] [1780472590.607278874] [global_costmap.global_costmap]: Configuring
+[planner_server-1] [INFO] [1780472590.657423563] [global_costmap.global_costmap]: Using plugin "static_layer"
+[planner_server-1] [INFO] [1780472590.703590229] [global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[planner_server-1] [INFO] [1780472590.713709127] [global_costmap.global_costmap]: Subscribing to updates
+[planner_server-1] [INFO] [1780472590.722841607] [global_costmap.global_costmap]: Initialized plugin "static_layer"
+[planner_server-1] [INFO] [1780472590.724709032] [global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[planner_server-1] [INFO] [1780472590.737583818] [global_costmap.global_costmap]: Subscribed to Topics: scan
+[sac_validation_logger-7] [INFO] [1780472590.765803801] [sac_validation_logger]: Writing SAC navigation validation CSV: /home/abdulrhman/ws_mobile_v2/experiment_logs/robot_local_sac_goal_test_particle_test_01_20260603_104053/sac_motion_validation.csv
+[planner_server-1] [INFO] [1780472590.769303191] [global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[planner_server-1] [INFO] [1780472590.769396440] [global_costmap.global_costmap]: Using plugin "inflation_layer"
+[planner_server-1] [INFO] [1780472590.771612927] [global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[planner_server-1] [INFO] [1780472590.795139740] [route_server]: Created global planner plugin GridBased of type nav2_navfn_planner/NavfnPlanner
+[planner_server-1] [INFO] [1780472590.795259903] [route_server]: Configuring plugin GridBased of type NavfnPlanner
+[planner_server-1] [INFO] [1780472590.801060900] [route_server]: Planner Server has GridBased  planners available.
+[lifecycle_manager-2] [INFO] [1780472590.843970742] [lifecycle_manager_sac_route]: [34m[1mActivating route_server[0m[0m
+[planner_server-1] [INFO] [1780472590.845507889] [route_server]: Activating
+[planner_server-1] [INFO] [1780472590.845602322] [global_costmap.global_costmap]: Activating
+[planner_server-1] [INFO] [1780472590.845632371] [global_costmap.global_costmap]: Checking transform
+[planner_server-1] [INFO] [1780472590.846280542] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[sac_safety_filter_node-5] [INFO] [1780472590.875830181] [sac_safety_filter_node]: Emergency-only SAC filter active: if front_min < 0.070 m and linear.x > 0, only linear.x is set to 0. angular.z is preserved exactly.
+[planner_server-1] [INFO] [1780472590.886754981] [global_costmap.global_costmap]: StaticLayer: Resizing costmap to 236 X 216 at 0.020000 m/pix
+[goal_relative_calculator-8] [INFO] [1780472590.939041051] [goal_relative_calculator]: Goal relative calculator ready: publishes /goal_distance, /goal_angle, /goal_valid, /goal_reached
+[planner_server-1] [INFO] [1780472591.346494253] [global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Lookup would require extrapolation into the past.  Requested time 1780472591.292207 but the earliest data is at time 1780472591.752065, when looking up transform from frame [base_footprint] to frame [map]
+[planner_server-1] [INFO] [1780472591.846865918] [global_costmap.global_costmap]: start
+[planner_server-1] [INFO] [1780472592.099725590] [route_server]: Activating plugin GridBased of type NavfnPlanner
+[planner_server-1] [INFO] [1780472592.105367961] [route_server]: Creating bond (route_server) to lifecycle manager.
+[center_route_requester_node-3] [WARN] [1780472592.155561738] [center_route_requester]: Waiting for map->base_footprint TF: "map" passed to lookupTransform argument target_frame does not exist. 
+[lifecycle_manager-2] [INFO] [1780472592.526643294] [lifecycle_manager_sac_route]: Server route_server connected with bond.
+[lifecycle_manager-2] [INFO] [1780472592.526796256] [lifecycle_manager_sac_route]: [34m[1mManaged nodes are active[0m[0m
+[lifecycle_manager-2] [INFO] [1780472592.526835425] [lifecycle_manager_sac_route]: [34m[1mCreating bond timer...[0m[0m
+[center_route_requester_node-3] [INFO] [1780472593.767436216] [center_route_requester]: Published center route with 159 poses.
+[goal_relative_calculator-8] [INFO] [1780472593.901400072] [goal_relative_calculator]: goal_distance=1.489m goal_angle=0.045rad pose_source=tf
+[sac_motion_node-6] [INFO] [1780472596.005370617] [sac_motion_node]: Loading SAC navigation model: /home/abdulrhman/ws_mobile_v2/rl_models/sac_goal_policy.zip
+[goal_relative_calculator-8] [INFO] [1780472596.901139595] [goal_relative_calculator]: goal_distance=1.492m goal_angle=0.046rad pose_source=tf
+[sac_motion_node-6] [INFO] [1780472597.992033984] [sac_motion_node]: SAC navigation observation schema:
+[sac_motion_node-6] [INFO] [1780472597.992873359] [sac_motion_node]:   00: lookahead_distance_norm
+[sac_motion_node-6] [INFO] [1780472597.993613052] [sac_motion_node]:   01: lookahead_angle_norm
+[sac_motion_node-6] [INFO] [1780472597.994297608] [sac_motion_node]:   02: sin_lookahead_angle
+[sac_motion_node-6] [INFO] [1780472597.994974868] [sac_motion_node]:   03: cos_lookahead_angle
+[sac_motion_node-6] [INFO] [1780472597.995989029] [sac_motion_node]:   04: signed_cross_track_error_norm
+[sac_motion_node-6] [INFO] [1780472597.996707026] [sac_motion_node]:   05: abs_cross_track_error_norm
+[sac_motion_node-6] [INFO] [1780472597.997397950] [sac_motion_node]:   06: cross_track_error_delta_norm
+[sac_motion_node-6] [INFO] [1780472597.998064266] [sac_motion_node]:   07: path_heading_error_norm
+[sac_motion_node-6] [INFO] [1780472597.998751158] [sac_motion_node]:   08: sin_path_heading_error
+[sac_motion_node-6] [INFO] [1780472597.999429538] [sac_motion_node]:   09: cos_path_heading_error
+[sac_motion_node-6] [INFO] [1780472598.000442132] [sac_motion_node]:   10: path_progress_fraction
+[sac_motion_node-6] [INFO] [1780472598.001148704] [sac_motion_node]:   11: remaining_path_distance_norm
+[sac_motion_node-6] [INFO] [1780472598.001843692] [sac_motion_node]:   12: distance_to_segment_end_norm
+[sac_motion_node-6] [INFO] [1780472598.002533496] [sac_motion_node]:   13: upcoming_turn_angle_norm
+[sac_motion_node-6] [INFO] [1780472598.003245381] [sac_motion_node]:   14: upcoming_turn_direction
+[sac_motion_node-6] [INFO] [1780472598.003896368] [sac_motion_node]:   15: previous_cmd_linear_norm
+[sac_motion_node-6] [INFO] [1780472598.004545980] [sac_motion_node]:   16: previous_cmd_angular_norm
+[sac_motion_node-6] [INFO] [1780472598.005208071] [sac_motion_node]:   17: previous_raw_action_linear
+[sac_motion_node-6] [INFO] [1780472598.005881651] [sac_motion_node]:   18: previous_raw_action_angular
+[sac_motion_node-6] [INFO] [1780472598.006565471] [sac_motion_node]:   19: linear_speed_norm
+[sac_motion_node-6] [INFO] [1780472598.007716243] [sac_motion_node]:   20: angular_speed_norm
+[sac_motion_node-6] [INFO] [1780472598.008594307] [sac_motion_node]:   21: distance_to_final_waypoint_norm
+[sac_motion_node-6] [INFO] [1780472598.009285903] [sac_motion_node]:   22: current_segment_index_norm
+[sac_motion_node-6] [INFO] [1780472598.009950491] [sac_motion_node]:   23: lidar_sector_0_norm
+[sac_motion_node-6] [INFO] [1780472598.010598630] [sac_motion_node]:   24: lidar_sector_1_norm
+[sac_motion_node-6] [INFO] [1780472598.011288210] [sac_motion_node]:   25: lidar_sector_2_norm
+[sac_motion_node-6] [INFO] [1780472598.011941534] [sac_motion_node]:   26: lidar_sector_3_norm
+[sac_motion_node-6] [INFO] [1780472598.012612201] [sac_motion_node]:   27: lidar_sector_4_norm
+[sac_motion_node-6] [INFO] [1780472598.013526297] [sac_motion_node]:   28: lidar_sector_5_norm
+[sac_motion_node-6] [INFO] [1780472598.014233766] [sac_motion_node]:   29: lidar_sector_6_norm
+[sac_motion_node-6] [INFO] [1780472598.014900561] [sac_motion_node]:   30: lidar_sector_7_norm
+[sac_motion_node-6] [WARN] [1780472598.813946946] [sac_motion_node]: Waiting for map->base_footprint TF: Lookup would require extrapolation into the past.  Requested time 1780472598.738435 but the earliest data is at time 1780472599.047892, when looking up transform from frame [base_footprint] to frame [map]
+[goal_relative_calculator-8] [INFO] [1780472599.902888694] [goal_relative_calculator]: goal_distance=1.477m goal_angle=-0.109rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472602.902273083] [goal_relative_calculator]: goal_distance=1.388m goal_angle=-0.585rad pose_source=tf
+[center_route_requester_node-3] [INFO] [1780472603.752581074] [center_route_requester]: Published center route with 141 poses.
+[goal_relative_calculator-8] [INFO] [1780472605.901059163] [goal_relative_calculator]: goal_distance=1.265m goal_angle=-0.578rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472608.904793942] [goal_relative_calculator]: goal_distance=1.149m goal_angle=-0.387rad pose_source=tf
+[center_route_requester_node-3] [INFO] [1780472609.761373534] [center_route_requester]: Published center route with 113 poses.
+[goal_relative_calculator-8] [INFO] [1780472611.902429163] [goal_relative_calculator]: goal_distance=0.987m goal_angle=-0.120rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472614.904098763] [goal_relative_calculator]: goal_distance=0.802m goal_angle=-0.135rad pose_source=tf
+[center_route_requester_node-3] [INFO] [1780472617.753661918] [center_route_requester]: Published center route with 65 poses.
+[goal_relative_calculator-8] [INFO] [1780472617.902497334] [goal_relative_calculator]: goal_distance=0.652m goal_angle=-0.238rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472620.902774662] [goal_relative_calculator]: goal_distance=0.497m goal_angle=-0.265rad pose_source=tf
+[center_route_requester_node-3] [INFO] [1780472623.748114551] [center_route_requester]: Published center route with 37 poses.
+[goal_relative_calculator-8] [INFO] [1780472623.901709923] [goal_relative_calculator]: goal_distance=0.358m goal_angle=-0.075rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472626.902118590] [goal_relative_calculator]: goal_distance=0.159m goal_angle=0.106rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472629.902243416] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472632.902295605] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472635.902137138] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472638.902167447] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472641.902153087] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472644.902152843] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472647.902184252] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472650.902211056] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472653.902172423] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472656.902113858] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472659.902078752] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472662.902069315] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472665.902516914] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472668.902164534] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472671.902110722] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472674.902225974] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472677.902462318] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472680.902254083] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472683.902250878] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472686.902091578] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472689.902333793] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472692.902298758] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472695.902284430] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472698.902241273] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472701.902273705] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472704.902428766] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472707.902733112] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472710.902238376] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472713.902119105] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472716.902342403] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472719.902371717] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472722.902384745] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472725.902058858] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472728.902251448] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472731.902261636] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472734.902214739] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472737.902134724] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472740.902156665] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472743.902290675] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472746.902721045] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472749.902182600] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472752.902249897] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472755.902233546] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472758.902380849] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472761.902214997] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472764.902240767] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472767.902628210] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472770.902701089] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472773.903283836] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472776.902277950] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472779.902111248] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472782.902135592] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472785.902166403] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472788.902186431] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472791.902423714] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472794.902243071] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472797.902246914] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472800.902450346] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472803.902246734] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472806.902239063] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472809.902212769] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472812.902207823] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472815.902205406] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472818.902395602] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472821.903974625] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472824.902202775] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472827.902112685] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472830.902235016] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472833.902253795] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472836.902158046] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[goal_relative_calculator-8] [INFO] [1780472839.901505649] [goal_relative_calculator]: goal_distance=0.116m goal_angle=0.119rad pose_source=tf
+[planner_server-1] [INFO] [1780472842.726174172] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[planner_server-1] [INFO] [1780472842.726353791] [route_server]: Running Nav2 LifecycleNode rcl preshutdown (route_server)
+[planner_server-1] [INFO] [1780472842.726515298] [route_server]: Deactivating
+[planner_server-1] [INFO] [1780472842.726621252] [global_costmap.global_costmap]: Deactivating
+[lifecycle_manager-2] [INFO] [1780472842.726488098] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[lifecycle_manager-2] [INFO] [1780472842.726662693] [lifecycle_manager_sac_route]: Running Nav2 LifecycleManager rcl preshutdown (lifecycle_manager_sac_route)
+[lifecycle_manager-2] [INFO] [1780472842.726767527] [lifecycle_manager_sac_route]: [34m[1mTerminating bond timer...[0m[0m
+[lifecycle_manager-2] [INFO] [1780472842.826635049] [lifecycle_manager_sac_route]: Destroying lifecycle_manager_sac_route
+[planner_server-1] [INFO] [1780472842.847342198] [route_server]: Deactivating plugin GridBased of type NavfnPlanner
+[planner_server-1] [INFO] [1780472842.847461720] [route_server]: Destroying bond (route_server) to lifecycle manager.
+[planner_server-1] [INFO] [1780472842.857752782] [route_server]: Cleaning up
+[planner_server-1] [INFO] [1780472842.917023427] [global_costmap.global_costmap]: Cleaning up
+[planner_server-1] [INFO] [1780472843.022853967] [route_server]: Cleaning up plugin GridBased of type NavfnPlanner
+[planner_server-1] [INFO] [1780472843.026379213] [route_server]: Destroying plugin GridBased of type NavfnPlanner
+[INFO] [lifecycle_manager-2]: process has finished cleanly [pid 9005]
+[planner_server-1] [INFO] [1780472843.076222716] [route_server]: Destroying bond (route_server) to lifecycle manager.
+[planner_server-1] [INFO] [1780472843.088986429] [global_costmap.global_costmap]: Destroying
+[goal_relative_calculator-8] Traceback (most recent call last):
+[goal_relative_calculator-8]   File "/home/abdulrhman/ws_mobile_v2/install/mobile_robot/lib/mobile_robot/goal_relative_calculator", line 157, in <module>
+[goal_relative_calculator-8]     main()
+[goal_relative_calculator-8]   File "/home/abdulrhman/ws_mobile_v2/install/mobile_robot/lib/mobile_robot/goal_relative_calculator", line 147, in main
+[planner_server-1] [INFO] [1780472843.162097095] [route_server]: Destroying
+[goal_relative_calculator-8]     rclpy.spin(node)
+[goal_relative_calculator-8]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+[goal_relative_calculator-8]     executor.spin_once()
+[goal_relative_calculator-8]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 808, in spin_once
+[goal_relative_calculator-8]     self._spin_once_impl(timeout_sec)
+[goal_relative_calculator-8]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 797, in _spin_once_impl
+[goal_relative_calculator-8]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+[sac_motion_node-6] Traceback (most recent call last):
+[sac_motion_node-6]   File "/home/abdulrhman/ws_mobile_v2/install/mobile_robot/lib/mobile_robot/sac_motion_node", line 290, in <module>
+[sac_motion_node-6]     main()
+[sac_motion_node-6]   File "/home/abdulrhman/ws_mobile_v2/install/mobile_robot/lib/mobile_robot/sac_motion_node", line 278, in main
+[sac_motion_node-6]     rclpy.spin(node)
+[sac_motion_node-6]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+[sac_motion_node-6]     executor.spin_once()
+[sac_motion_node-6]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 808, in spin_once
+[sac_motion_node-6]     self._spin_once_impl(timeout_sec)
+[sac_motion_node-6]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 797, in _spin_once_impl
+[sac_motion_node-6]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+[sac_motion_node-6]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 780, in wait_for_ready_callbacks
+[sac_motion_node-6]     return next(self._cb_iter)
+[sac_motion_node-6]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 681, in _wait_for_ready_callbacks
+[sac_motion_node-6]     raise ExternalShutdownException()
+[sac_motion_node-6] rclpy.executors.ExternalShutdownException
+[goal_relative_calculator-8]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 780, in wait_for_ready_callbacks
+[goal_relative_calculator-8]     return next(self._cb_iter)
+[goal_relative_calculator-8]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 681, in _wait_for_ready_callbacks
+[goal_relative_calculator-8]     raise ExternalShutdownException()
+[goal_relative_calculator-8] rclpy.executors.ExternalShutdownException
+[sac_safety_filter_node-5] Traceback (most recent call last):
+[sac_safety_filter_node-5]   File "/home/abdulrhman/ws_mobile_v2/install/mobile_robot/lib/mobile_robot/sac_safety_filter_node", line 134, in <module>
+[sac_safety_filter_node-5]     main()
+[sac_safety_filter_node-5]   File "/home/abdulrhman/ws_mobile_v2/install/mobile_robot/lib/mobile_robot/sac_safety_filter_node", line 119, in main
+[sac_safety_filter_node-5]     rclpy.spin(node)
+[sac_safety_filter_node-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+[sac_safety_filter_node-5]     executor.spin_once()
+[sac_safety_filter_node-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 808, in spin_once
+[sac_safety_filter_node-5]     self._spin_once_impl(timeout_sec)
+[sac_safety_filter_node-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 797, in _spin_once_impl
+[sac_safety_filter_node-5]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+[sac_safety_filter_node-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 780, in wait_for_ready_callbacks
+[sac_safety_filter_node-5]     return next(self._cb_iter)
+[sac_safety_filter_node-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 681, in _wait_for_ready_callbacks
+[sac_safety_filter_node-5]     raise ExternalShutdownException()
+[sac_safety_filter_node-5] rclpy.executors.ExternalShutdownException
+[center_route_requester_node-3] Traceback (most recent call last):
+[center_route_requester_node-3]   File "/home/abdulrhman/ws_mobile_v2/install/mobile_robot/lib/mobile_robot/center_route_requester_node", line 171, in <module>
+[center_route_requester_node-3]     main()
+[center_route_requester_node-3]   File "/home/abdulrhman/ws_mobile_v2/install/mobile_robot/lib/mobile_robot/center_route_requester_node", line 161, in main
+[center_route_requester_node-3]     rclpy.spin(node)
+[center_route_requester_node-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+[center_route_requester_node-3]     executor.spin_once()
+[center_route_requester_node-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 808, in spin_once
+[center_route_requester_node-3]     self._spin_once_impl(timeout_sec)
+[center_route_requester_node-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 797, in _spin_once_impl
+[center_route_requester_node-3]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+[center_route_requester_node-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 780, in wait_for_ready_callbacks
+[center_route_requester_node-3]     return next(self._cb_iter)
+[center_route_requester_node-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 681, in _wait_for_ready_callbacks
+[center_route_requester_node-3]     raise ExternalShutdownException()
+[center_route_requester_node-3] rclpy.executors.ExternalShutdownException
+[INFO] [planner_server-1]: process has finished cleanly [pid 9003]
+[local_target_node-4] Traceback (most recent call last):
+[local_target_node-4]   File "/home/abdulrhman/ws_mobile_v2/install/mobile_robot/lib/mobile_robot/local_target_node", line 223, in <module>
+[local_target_node-4]     main()
+[local_target_node-4]   File "/home/abdulrhman/ws_mobile_v2/install/mobile_robot/lib/mobile_robot/local_target_node", line 213, in main
+[local_target_node-4]     rclpy.spin(node)
+[local_target_node-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+[local_target_node-4]     executor.spin_once()
+[local_target_node-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 808, in spin_once
+[local_target_node-4]     self._spin_once_impl(timeout_sec)
+[local_target_node-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 797, in _spin_once_impl
+[local_target_node-4]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+[local_target_node-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 780, in wait_for_ready_callbacks
+[local_target_node-4]     return next(self._cb_iter)
+[local_target_node-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 681, in _wait_for_ready_callbacks
+[local_target_node-4]     raise ExternalShutdownException()
+[local_target_node-4] rclpy.executors.ExternalShutdownException
+[sac_validation_logger-7] Traceback (most recent call last):
+[sac_validation_logger-7]   File "/home/abdulrhman/ws_mobile_v2/install/mobile_robot/lib/mobile_robot/sac_validation_logger", line 153, in <module>
+[sac_validation_logger-7]     main()
+[sac_validation_logger-7]   File "/home/abdulrhman/ws_mobile_v2/install/mobile_robot/lib/mobile_robot/sac_validation_logger", line 143, in main
+[sac_validation_logger-7]     rclpy.spin(node)
+[sac_validation_logger-7]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+[sac_validation_logger-7]     executor.spin_once()
+[sac_validation_logger-7]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 808, in spin_once
+[sac_validation_logger-7]     self._spin_once_impl(timeout_sec)
+[sac_validation_logger-7]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 797, in _spin_once_impl
+[sac_validation_logger-7]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+[sac_validation_logger-7]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 780, in wait_for_ready_callbacks
+[sac_validation_logger-7]     return next(self._cb_iter)
+[sac_validation_logger-7]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 681, in _wait_for_ready_callbacks
+[sac_validation_logger-7]     raise ExternalShutdownException()
+[sac_validation_logger-7] rclpy.executors.ExternalShutdownException
+[ERROR] [goal_relative_calculator-8]: process has died [pid 9040, exit code 1, cmd '/home/abdulrhman/ws_mobile_v2/install/mobile_robot/lib/mobile_robot/goal_relative_calculator --ros-args -r __node:=goal_relative_calculator --params-file /tmp/launch_params_pltl2400'].
+[ERROR] [sac_safety_filter_node-5]: process has died [pid 9012, exit code 1, cmd '/home/abdulrhman/ws_mobile_v2/install/mobile_robot/lib/mobile_robot/sac_safety_filter_node --ros-args -r __node:=sac_safety_filter_node --params-file /home/abdulrhman/ws_mobile_v2/install/mobile_robot/share/mobile_robot/config/sac_navigation_params.yaml --params-file /tmp/launch_params__re4a0ro'].
+[ERROR] [center_route_requester_node-3]: process has died [pid 9007, exit code 1, cmd '/home/abdulrhman/ws_mobile_v2/install/mobile_robot/lib/mobile_robot/center_route_requester_node --ros-args -r __node:=center_route_requester --params-file /home/abdulrhman/ws_mobile_v2/install/mobile_robot/share/mobile_robot/config/sac_navigation_params.yaml --params-file /tmp/launch_params_8k10061d'].
+[ERROR] [sac_validation_logger-7]: process has died [pid 9025, exit code 1, cmd '/home/abdulrhman/ws_mobile_v2/install/mobile_robot/lib/mobile_robot/sac_validation_logger --ros-args -r __node:=sac_validation_logger --params-file /home/abdulrhman/ws_mobile_v2/install/mobile_robot/share/mobile_robot/config/sac_navigation_params.yaml --params-file /tmp/launch_params_3tzyggw7'].
+[ERROR] [local_target_node-4]: process has died [pid 9009, exit code 1, cmd '/home/abdulrhman/ws_mobile_v2/install/mobile_robot/lib/mobile_robot/local_target_node --ros-args -r __node:=local_target_node --params-file /home/abdulrhman/ws_mobile_v2/install/mobile_robot/share/mobile_robot/config/sac_navigation_params.yaml --params-file /tmp/launch_params_2qx21_fd'].
+[ERROR] [sac_motion_node-6]: process has died [pid 9015, exit code 1, cmd '/home/abdulrhman/ws_mobile_v2/install/mobile_robot/lib/mobile_robot/sac_motion_node --ros-args -r __node:=sac_motion_node --params-file /home/abdulrhman/ws_mobile_v2/install/mobile_robot/share/mobile_robot/config/sac_navigation_params.yaml --params-file /tmp/launch_params_8wktrzlb'].
