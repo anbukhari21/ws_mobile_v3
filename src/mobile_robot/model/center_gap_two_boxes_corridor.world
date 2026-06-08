@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<sdf version="1.7">
+  <world name="center_gap_two_boxes_corridor">
+    <light name="sun" type="directional"><pose>0 0 10 0 0 0</pose><diffuse>0.8 0.8 0.8 1</diffuse><specular>0.2 0.2 0.2 1</specular><direction>-0.5 0.1 -0.9</direction></light>
+    <model name="ground_plane"><static>true</static><link name="link"><collision name="collision"><geometry><plane><normal>0 0 1</normal><size>100 100</size></plane></geometry></collision><visual name="visual"><geometry><plane><normal>0 0 1</normal><size>100 100</size></plane></geometry><material><ambient>0.56 0.56 0.56 1</ambient><diffuse>0.56 0.56 0.56 1</diffuse></material></visual></link></model>
+    <gravity>0 0 -9.8</gravity><physics type="ode"><max_step_size>0.001</max_step_size><real_time_factor>1</real_time_factor><real_time_update_rate>1000</real_time_update_rate></physics>
+    <scene><ambient>0.45 0.45 0.45 1</ambient><background>0.70 0.72 0.74 1</background><shadows>1</shadows></scene>
+    <include><uri>model://arena_high_resolution</uri></include>
+    <include><name>center_gap_box_1</name><uri>model://box1</uri><pose>0.35 0.275 0.25 0 0 0</pose></include>
+    <include><name>center_gap_box_2</name><uri>model://box2</uri><pose>0.35 -0.275 0.25 0 0 0</pose></include>
+    <include><name>center_gap_box_3</name><uri>model://box3</uri><pose>-0.15 0.275 0.25 0 0 0</pose></include>
+    <include><name>center_gap_box_4</name><uri>model://box4</uri><pose>-0.15 -0.275 0.25 0 0 0</pose></include>
+    <include><name>center_gap_box_5</name><uri>model://box5</uri><pose>20 20 0.25 0 0 0</pose></include>
+    <gui fullscreen="0"><camera name="user_camera"><pose>0 -5.0 4.2 0 0.72 1.5708</pose><view_controller>orbit</view_controller></camera></gui>
+    <plugin name="gazebo_ros_state" filename="libgazebo_ros_state.so"><ros><namespace></namespace></ros><update_rate>1.0</update_rate></plugin>
+  </world>
+</sdf>

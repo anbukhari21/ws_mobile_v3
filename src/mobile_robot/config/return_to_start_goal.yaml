@@ -1,0 +1,10 @@
+return_to_start_goal_node:
+  ros__parameters:
+    pose_frame: map
+    base_frame: base_footprint
+    target_x: 0.0
+    target_y: 0.0
+    publish_rate: 10.0
+    goal_tolerance: 0.15
+    tf_timeout: 0.05
+

@@ -1,0 +1,18 @@
+arena_center_estimator_node:
+  ros__parameters:
+    scan_topic: /scan
+    expected_radius: 2.0
+    radius_tolerance: 0.35
+    min_range: 0.15
+    max_range: 4.5
+    min_wall_range: 1.0
+    min_inliers: 25
+    max_fit_error: 0.15
+    publish_rate: 10.0
+    use_ransac: true
+    ransac_iterations: 100
+    ransac_threshold: 0.08
+    last_valid_timeout: 1.5
+    goal_tolerance: 0.15
+    max_center_jump: 0.35
+    center_smoothing_alpha: 0.45

@@ -1,0 +1,9 @@
+localization_modes:
+  ros__parameters:
+    # Default preserves the existing saved-map AMCL behavior.
+    localization_mode: saved_map_amcl
+    allowed_modes:
+      - saved_map_amcl
+      - online_slam_return_start
+      - arena_center_lidar
+

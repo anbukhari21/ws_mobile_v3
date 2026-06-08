@@ -1,0 +1,204 @@
+<?xml version="1.0"?>
+<robot name="differential_drive_robot" xmlns:xacro="https://www.ros.org/wiki/xacro">
+
+  <!-- Yahboom MSPM0-style 4WD aluminum chassis approximation. -->
+  <xacro:property name="body_link_x_dim" value="0.260"/>
+  <xacro:property name="body_link_y_dim" value="0.170"/>
+  <xacro:property name="body_link_z_dim" value="0.055"/>
+
+  <!-- WHEEL DIMENSIONS -->
+  <xacro:property name="wheel_link_radius" value="0.0325"/>
+  <xacro:property name="wheel_link_length" value="0.028"/>
+
+  <!-- Approximate wheel center spacing for the 4WD chassis. -->
+  <xacro:property name="wheel_track" value="0.170"/>
+  <xacro:property name="wheel_base" value="0.175"/>
+
+  <!-- Keeps wheel bottoms near the ground for the existing Gazebo spawn z=0.08m. -->
+  <xacro:property name="wheel_link_z_location" value="-0.0475"/>
+
+  <!-- MASS -->
+  <xacro:property name="robot_total_mass" value="2.0"/>
+  <xacro:property name="wheel_mass" value="0.15"/>
+  <xacro:property name="body_mass" value="${robot_total_mass - 4.0*wheel_mass}"/>
+
+  <!-- OFFSETS -->
+  <xacro:property name="wheel_x_offset" value="${wheel_base/2.0}"/>
+  <xacro:property name="wheel_y_offset" value="${wheel_track/2.0}"/>
+
+  <!-- BODY INERTIA -->
+  <xacro:property name="body_ixx"
+                  value="${(1.0/12.0)*body_mass*(body_link_y_dim*body_link_y_dim + body_link_z_dim*body_link_z_dim)}"/>
+  <xacro:property name="body_iyy"
+                  value="${(1.0/12.0)*body_mass*(body_link_x_dim*body_link_x_dim + body_link_z_dim*body_link_z_dim)}"/>
+  <xacro:property name="body_izz"
+                  value="${(1.0/12.0)*body_mass*(body_link_x_dim*body_link_x_dim + body_link_y_dim*body_link_y_dim)}"/>
+
+  <!-- WHEEL INERTIA -->
+  <xacro:property name="Iz_wheel"
+                  value="${0.5*wheel_mass*wheel_link_radius*wheel_link_radius}"/>
+  <xacro:property name="I_wheel"
+                  value="${(1.0/12.0)*wheel_mass*(3.0*wheel_link_radius*wheel_link_radius + wheel_link_length*wheel_link_length)}"/>
+
+  <xacro:macro name="inertia_wheel">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <mass value="${wheel_mass}"/>
+      <inertia ixx="${I_wheel}" ixy="0.0" ixz="0.0"
+               iyy="${I_wheel}" iyz="0.0" izz="${Iz_wheel}" />
+    </inertial>
+  </xacro:macro>
+
+  <!-- Includes -->
+  <xacro:include filename="$(find mobile_robot)/model/robot_yahboom_rplidar_c1.gazebo" />
+  <xacro:include filename="$(find mobile_robot)/model/lidar_rplidar_c1.xacro" />
+  <xacro:include filename="$(find mobile_robot)/model/camera.xacro" />
+
+  <!-- Base footprint -->
+  <link name="base_footprint"/>
+  <link name="base_link"/>
+
+  <joint name="base_footprint_joint" type="fixed">
+    <parent link="base_footprint"/>
+    <child link="base_link"/>
+  </joint>
+
+  <joint name="body_link_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="body_link"/>
+  </joint>
+
+  <!-- Main chassis body -->
+  <link name="body_link">
+    <visual>
+      <geometry>
+        <box size="${body_link_x_dim} ${body_link_y_dim} ${body_link_z_dim}" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </visual>
+
+    <collision>
+      <geometry>
+        <box size="${body_link_x_dim} ${body_link_y_dim} ${body_link_z_dim}" />
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+    </collision>
+
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <mass value="${body_mass}" />
+      <inertia
+        ixx="${body_ixx}"
+        ixy="0.0"
+        ixz="0.0"
+        iyy="${body_iyy}"
+        iyz="0.0"
+        izz="${body_izz}"/>
+    </inertial>
+  </link>
+
+  <!-- Rear right -->
+  <joint name="wheel1_joint" type="continuous">
+    <parent link="body_link" />
+    <child link="wheel1_link" />
+    <origin xyz="${-wheel_x_offset} ${-wheel_y_offset} ${wheel_link_z_location}" rpy="0 0 0" />
+    <axis xyz="0 1 0"/>
+    <limit effort="1000" velocity="1000"/>
+    <dynamics damping="1.0" friction="1.0"/>
+  </joint>
+
+  <link name="wheel1_link">
+    <visual>
+      <origin rpy="1.570795 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="${wheel_link_length}" radius="${wheel_link_radius}"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin rpy="1.570795 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="${wheel_link_length}" radius="${wheel_link_radius}"/>
+      </geometry>
+    </collision>
+    <xacro:inertia_wheel />
+  </link>
+
+  <!-- Rear left -->
+  <joint name="wheel2_joint" type="continuous">
+    <parent link="body_link" />
+    <child link="wheel2_link" />
+    <origin xyz="${-wheel_x_offset} ${wheel_y_offset} ${wheel_link_z_location}" rpy="0 0 0" />
+    <axis xyz="0 1 0"/>
+    <limit effort="1000" velocity="1000"/>
+    <dynamics damping="1.0" friction="1.0"/>
+  </joint>
+
+  <link name="wheel2_link">
+    <visual>
+      <origin rpy="1.570795 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="${wheel_link_length}" radius="${wheel_link_radius}"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin rpy="1.570795 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="${wheel_link_length}" radius="${wheel_link_radius}"/>
+      </geometry>
+    </collision>
+    <xacro:inertia_wheel />
+  </link>
+
+  <!-- Front right -->
+  <joint name="wheel3_joint" type="continuous">
+    <parent link="body_link" />
+    <child link="wheel3_link" />
+    <origin xyz="${wheel_x_offset} ${-wheel_y_offset} ${wheel_link_z_location}" rpy="0 0 0" />
+    <axis xyz="0 1 0"/>
+    <limit effort="1000" velocity="1000"/>
+    <dynamics damping="1.0" friction="1.0"/>
+  </joint>
+
+  <link name="wheel3_link">
+    <visual>
+      <origin rpy="1.570795 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="${wheel_link_length}" radius="${wheel_link_radius}"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin rpy="1.570795 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="${wheel_link_length}" radius="${wheel_link_radius}"/>
+      </geometry>
+    </collision>
+    <xacro:inertia_wheel />
+  </link>
+
+  <!-- Front left -->
+  <joint name="wheel4_joint" type="continuous">
+    <parent link="body_link" />
+    <child link="wheel4_link" />
+    <origin xyz="${wheel_x_offset} ${wheel_y_offset} ${wheel_link_z_location}" rpy="0 0 0" />
+    <axis xyz="0 1 0"/>
+    <limit effort="1000" velocity="1000"/>
+    <dynamics damping="1.0" friction="1.0"/>
+  </joint>
+
+  <link name="wheel4_link">
+    <visual>
+      <origin rpy="1.570795 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="${wheel_link_length}" radius="${wheel_link_radius}"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin rpy="1.570795 0 0" xyz="0 0 0"/>
+      <geometry>
+        <cylinder length="${wheel_link_length}" radius="${wheel_link_radius}"/>
+      </geometry>
+    </collision>
+    <xacro:inertia_wheel />
+  </link>
+
+</robot>

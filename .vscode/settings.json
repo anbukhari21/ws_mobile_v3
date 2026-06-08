@@ -1,0 +1,7 @@
+{
+  "files.exclude": {
+    "**/.legacy_internal": true,
+    "**/.legacy_runtime": true,
+    "**/__pycache__": true
+  }
+}

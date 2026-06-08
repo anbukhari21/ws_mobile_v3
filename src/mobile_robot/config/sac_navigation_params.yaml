@@ -1,0 +1,117 @@
+planner_server:
+  ros__parameters:
+    use_sim_time: true
+    expected_planner_frequency: 5.0
+    planner_plugins: ["GridBased"]
+    GridBased:
+      plugin: "nav2_navfn_planner/NavfnPlanner"
+      tolerance: 0.10
+      use_astar: false
+      allow_unknown: true
+
+route_server:
+  ros__parameters:
+    use_sim_time: true
+    expected_planner_frequency: 5.0
+    planner_plugins: ["GridBased"]
+    GridBased:
+      plugin: "nav2_navfn_planner/NavfnPlanner"
+      tolerance: 0.10
+      use_astar: false
+      allow_unknown: true
+
+global_costmap:
+  global_costmap:
+    ros__parameters:
+      use_sim_time: true
+      global_frame: map
+      robot_base_frame: base_footprint
+      update_frequency: 5.0
+      publish_frequency: 2.0
+      resolution: 0.05
+      robot_radius: 0.14
+      transform_tolerance: 0.5
+      track_unknown_space: false
+      always_send_full_costmap: true
+      plugins: ["static_layer", "obstacle_layer", "inflation_layer"]
+      static_layer:
+        plugin: "nav2_costmap_2d::StaticLayer"
+        map_subscribe_transient_local: true
+        subscribe_to_updates: true
+      obstacle_layer:
+        plugin: "nav2_costmap_2d::ObstacleLayer"
+        enabled: true
+        observation_sources: scan
+        scan:
+          topic: /scan
+          max_obstacle_height: 2.0
+          clearing: true
+          marking: true
+          data_type: LaserScan
+          raytrace_max_range: 3.5
+          raytrace_min_range: 0.05
+          obstacle_max_range: 3.0
+          obstacle_min_range: 0.05
+      inflation_layer:
+        plugin: "nav2_costmap_2d::InflationLayer"
+        inflation_radius: 0.32
+        cost_scaling_factor: 4.0
+
+center_route_requester:
+  ros__parameters:
+    use_sim_time: true
+    goal_x: 0.0
+    goal_y: 0.0
+    goal_yaw: 0.0
+    map_frame: map
+    base_frame: base_footprint
+    planner_id: GridBased
+    action_name: compute_path_to_pose
+    request_period_sec: 1.0
+    min_replan_distance: 0.12
+    goal_tolerance: 0.12
+
+local_target_node:
+  ros__parameters:
+    use_sim_time: true
+    map_frame: map
+    base_frame: base_footprint
+    lookahead_distance: 0.25
+    local_path_length: 1.0
+    publish_markers: true
+    marker_lifetime_sec: 0.5
+    goal_x: 0.0
+    goal_y: 0.0
+
+sac_motion_node:
+  ros__parameters:
+    use_sim_time: true
+    model_path: /home/abdulrahman/ws_mobile_v3/rl_models/sac_goal_policy.zip
+    map_frame: map
+    base_frame: base_footprint
+    lookahead_distance: 0.35
+    max_linear: 0.12
+    max_angular: 0.30
+    final_radius: 0.14
+    goal_x: 0.0
+    goal_y: 0.0
+    lidar_sector_count: 8
+    lidar_max_range: 3.5
+    control_rate_hz: 10.0
+
+sac_safety_filter_node:
+  ros__parameters:
+    use_sim_time: true
+    raw_cmd_topic: /sac_cmd_vel_raw
+    cmd_vel_topic: /cmd_vel
+    cmd_timeout_sec: 0.5
+    lidar_min_valid: 0.05
+    emergency_stop_distance: 0.07
+    front_half_angle_deg: 35.0
+
+sac_validation_logger:
+  ros__parameters:
+    use_sim_time: true
+    output_csv: /home/abdulrahman/ws_mobile_v3/rl_results/sac_navigation/sac_motion_validation.csv
+    goal_x: 0.0
+    goal_y: 0.0

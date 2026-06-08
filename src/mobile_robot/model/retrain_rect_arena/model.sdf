@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<sdf version='1.7'>
+  <model name='retrain_rect_arena'>
+    <static>true</static>
+    <link name='ground'>
+      <collision name='collision'>
+        <geometry><plane><normal>0 0 1</normal><size>100 100</size></plane></geometry>
+        <surface><friction><ode><mu>80</mu><mu2>80</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient><threshold>1000000</threshold></bounce><contact><ode><soft_cfm>0.001</soft_cfm><soft_erp>0.2</soft_erp><kp>1000000</kp><kd>10</kd><max_vel>0.05</max_vel><min_depth>0.001</min_depth></ode></contact></surface>
+      </collision>
+      <visual name='visual'>
+        <cast_shadows>0</cast_shadows>
+        <geometry><plane><normal>0 0 1</normal><size>100 100</size></plane></geometry>
+        <material><ambient>0.56 0.56 0.56 1</ambient><diffuse>0.56 0.56 0.56 1</diffuse></material>
+      </visual>
+    </link>
+    <link name='north_wall'><pose>0 3.0 0.35 0 0 0</pose><collision name='collision'><geometry><box><size>6.1 0.12 0.70</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision><visual name='visual'><geometry><box><size>6.1 0.12 0.70</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual></link>
+    <link name='south_wall'><pose>0 -3.0 0.35 0 0 0</pose><collision name='collision'><geometry><box><size>6.1 0.12 0.70</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision><visual name='visual'><geometry><box><size>6.1 0.12 0.70</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual></link>
+    <link name='east_wall'><pose>3.0 0 0.35 0 0 0</pose><collision name='collision'><geometry><box><size>0.12 6.1 0.70</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision><visual name='visual'><geometry><box><size>0.12 6.1 0.70</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual></link>
+    <link name='west_wall'><pose>-3.0 0 0.35 0 0 0</pose><collision name='collision'><geometry><box><size>0.12 6.1 0.70</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision><visual name='visual'><geometry><box><size>0.12 6.1 0.70</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual></link>
+  </model>
+</sdf>

@@ -1,0 +1,16 @@
+build/
+install/
+log/
+experiment_logs/
+latest_map_yaml.txt
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+.env
+.venv/
+venv/
+
+*replay_buffer*.pkl

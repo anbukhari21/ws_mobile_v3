@@ -1,0 +1,327 @@
+<?xml version="1.0"?>
+<sdf version='1.7'>
+  <model name='arena_high_resolution'>
+    <static>true</static>
+    
+      <link name='wall_00'>
+        <pose>2.000000 0.000000 0.350 0 0 1.570796</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_01'>
+        <pose>1.990369 0.196034 0.350 0 0 1.668971</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_02'>
+        <pose>1.961571 0.390181 0.350 0 0 1.767146</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_03'>
+        <pose>1.913881 0.580569 0.350 0 0 1.865321</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_04'>
+        <pose>1.847759 0.765367 0.350 0 0 1.963495</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_05'>
+        <pose>1.763843 0.942793 0.350 0 0 2.061670</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_06'>
+        <pose>1.662939 1.111140 0.350 0 0 2.159845</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_07'>
+        <pose>1.546021 1.268787 0.350 0 0 2.258020</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_08'>
+        <pose>1.414214 1.414214 0.350 0 0 2.356194</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_09'>
+        <pose>1.268787 1.546021 0.350 0 0 2.454369</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_10'>
+        <pose>1.111140 1.662939 0.350 0 0 2.552544</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_11'>
+        <pose>0.942793 1.763843 0.350 0 0 2.650719</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_12'>
+        <pose>0.765367 1.847759 0.350 0 0 2.748894</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_13'>
+        <pose>0.580569 1.913881 0.350 0 0 2.847068</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_14'>
+        <pose>0.390181 1.961571 0.350 0 0 2.945243</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_15'>
+        <pose>0.196034 1.990369 0.350 0 0 3.043418</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_16'>
+        <pose>0.000000 2.000000 0.350 0 0 3.141593</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_17'>
+        <pose>-0.196034 1.990369 0.350 0 0 3.239767</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_18'>
+        <pose>-0.390181 1.961571 0.350 0 0 3.337942</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_19'>
+        <pose>-0.580569 1.913881 0.350 0 0 3.436117</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_20'>
+        <pose>-0.765367 1.847759 0.350 0 0 3.534292</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_21'>
+        <pose>-0.942793 1.763843 0.350 0 0 3.632467</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_22'>
+        <pose>-1.111140 1.662939 0.350 0 0 3.730641</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_23'>
+        <pose>-1.268787 1.546021 0.350 0 0 3.828816</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_24'>
+        <pose>-1.414214 1.414214 0.350 0 0 3.926991</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_25'>
+        <pose>-1.546021 1.268787 0.350 0 0 4.025166</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_26'>
+        <pose>-1.662939 1.111140 0.350 0 0 4.123340</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_27'>
+        <pose>-1.763843 0.942793 0.350 0 0 4.221515</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_28'>
+        <pose>-1.847759 0.765367 0.350 0 0 4.319690</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_29'>
+        <pose>-1.913881 0.580569 0.350 0 0 4.417865</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_30'>
+        <pose>-1.961571 0.390181 0.350 0 0 4.516039</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_31'>
+        <pose>-1.990369 0.196034 0.350 0 0 4.614214</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_32'>
+        <pose>-2.000000 0.000000 0.350 0 0 4.712389</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_33'>
+        <pose>-1.990369 -0.196034 0.350 0 0 4.810564</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_34'>
+        <pose>-1.961571 -0.390181 0.350 0 0 4.908739</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_35'>
+        <pose>-1.913881 -0.580569 0.350 0 0 5.006913</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_36'>
+        <pose>-1.847759 -0.765367 0.350 0 0 5.105088</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_37'>
+        <pose>-1.763843 -0.942793 0.350 0 0 5.203263</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_38'>
+        <pose>-1.662939 -1.111140 0.350 0 0 5.301438</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_39'>
+        <pose>-1.546021 -1.268787 0.350 0 0 5.399612</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_40'>
+        <pose>-1.414214 -1.414214 0.350 0 0 5.497787</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_41'>
+        <pose>-1.268787 -1.546021 0.350 0 0 5.595962</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_42'>
+        <pose>-1.111140 -1.662939 0.350 0 0 5.694137</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_43'>
+        <pose>-0.942793 -1.763843 0.350 0 0 5.792311</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_44'>
+        <pose>-0.765367 -1.847759 0.350 0 0 5.890486</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_45'>
+        <pose>-0.580569 -1.913881 0.350 0 0 5.988661</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_46'>
+        <pose>-0.390181 -1.961571 0.350 0 0 6.086836</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_47'>
+        <pose>-0.196034 -1.990369 0.350 0 0 6.185011</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_48'>
+        <pose>-0.000000 -2.000000 0.350 0 0 6.283185</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_49'>
+        <pose>0.196034 -1.990369 0.350 0 0 6.381360</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_50'>
+        <pose>0.390181 -1.961571 0.350 0 0 6.479535</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_51'>
+        <pose>0.580569 -1.913881 0.350 0 0 6.577710</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_52'>
+        <pose>0.765367 -1.847759 0.350 0 0 6.675884</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_53'>
+        <pose>0.942793 -1.763843 0.350 0 0 6.774059</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_54'>
+        <pose>1.111140 -1.662939 0.350 0 0 6.872234</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_55'>
+        <pose>1.268787 -1.546021 0.350 0 0 6.970409</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_56'>
+        <pose>1.414214 -1.414214 0.350 0 0 7.068583</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_57'>
+        <pose>1.546021 -1.268787 0.350 0 0 7.166758</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_58'>
+        <pose>1.662939 -1.111140 0.350 0 0 7.264933</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_59'>
+        <pose>1.763843 -0.942793 0.350 0 0 7.363108</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_60'>
+        <pose>1.847759 -0.765367 0.350 0 0 7.461283</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_61'>
+        <pose>1.913881 -0.580569 0.350 0 0 7.559457</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_62'>
+        <pose>1.961571 -0.390181 0.350 0 0 7.657632</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+      <link name='wall_63'>
+        <pose>1.990369 -0.196034 0.350 0 0 7.755807</pose>
+        <collision name='collision'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><surface><friction><ode><mu>1.0</mu><mu2>1.0</mu2></ode></friction><bounce><restitution_coefficient>0</restitution_coefficient></bounce></surface></collision>
+        <visual name='visual'><geometry><box><size>0.204368 0.120 0.700</size></box></geometry><material><ambient>0.72 0.72 0.70 1</ambient><diffuse>0.72 0.72 0.70 1</diffuse></material></visual>
+      </link>
+  </model>
+</sdf>
